@@ -1074,3 +1074,11 @@
 20:18:56.860 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
 20:18:57.061 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server 10.20.35.202/10.20.35.202:2181, sessionid = 0x1000019e86a0030, negotiated timeout = 30000
 20:18:57.062 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (SyncConnected)
+20:58:12.417 [DubboServerHandler-10.21.23.177:30102-thread-77] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+20:58:12.437 [DubboServerHandler-10.21.23.177:30102-thread-77] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@722125eb] was not registered for synchronization because synchronization is not active
+20:58:12.588 [DubboServerHandler-10.21.23.177:30102-thread-77] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@7ce6c5df] will not be managed by Spring
+20:58:12.597 [DubboServerHandler-10.21.23.177:30102-thread-77] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@722125eb]
+21:03:42.093 [DubboServerHandler-10.21.23.177:30102-thread-85] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+21:03:42.100 [DubboServerHandler-10.21.23.177:30102-thread-85] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a614a37] was not registered for synchronization because synchronization is not active
+21:03:42.280 [DubboServerHandler-10.21.23.177:30102-thread-85] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@7ce6c5df] will not be managed by Spring
+21:03:42.303 [DubboServerHandler-10.21.23.177:30102-thread-85] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a614a37]
