@@ -6,7 +6,10 @@ package com.senior_web.customer;
 
 @SpringBootApplication
 @ImportResource({"classpath:spring-dubbo.xml"})
-public class CustomerApplication {
+public class
+
+
+CustomerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CustomerApplication.class, args);

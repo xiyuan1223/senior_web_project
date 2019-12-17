@@ -3,13 +3,6 @@ package com.senior_web.common.domin;
 import java.io.Serializable;
 import java.util.PrimitiveIterator;
 
-/**
- * Created with IntelliJ IDEA.
- * User: gaopeng
- * Date: 2018/8/28 0028
- * Time: 18:00
- * Description:
- */
 public class User implements Serializable{
     private Integer userId;
 

@@ -14,13 +14,7 @@ import javax.annotation.Resource;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created with IntelliJ IDEA.
- * User: gaopeng
- * Date: 2018/8/28 0028
- * Time: 20:02
- * Description:
- */
+
 @Service(version = "1.0.0")
 public class UserImpl implements UserService {
 
