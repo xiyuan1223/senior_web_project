@@ -4,12 +4,11 @@ package com.senior_web.customer;
 		import org.springframework.boot.autoconfigure.SpringBootApplication;
 		import org.springframework.context.annotation.ImportResource;
 
+
+
 @SpringBootApplication
 @ImportResource({"classpath:spring-dubbo.xml"})
-public class
-
-
-CustomerApplication {
+public class CustomerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CustomerApplication.class, args);
