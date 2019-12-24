@@ -32,7 +32,8 @@ public class JobController {
 
         int startId = 6;
         int stopId = 100;
-        List<Job> jobs = jobService.findList(startId,stopId);
+        List<Job> jobs = jobService.findList(startId, stopId);
+        System.out.println(jobs.size());
         return jobs;
     }
 

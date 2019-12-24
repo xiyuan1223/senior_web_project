@@ -20,30 +20,12 @@
         where t.id = #{id,jdbcType=INTEGER}
     </select>
 
-    <select id="findList" resultMap="BaseResultMap" parameterType="com.senior_web.common.domin.Job" >
+    <select id="findList" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
         select
         <include refid="Base_Column_List" />
         from jobs t
-        <where>
-            <if test="id !=null ">
-                and id>#{startId,jdbcType=INTEGER}
+        where t.id between #{startId,jdbcType=INTEGER} and #{stopId,jdbcType=INTEGER}
 
-            </if>
-
-            <if test="position !=null ">
-
-            </if>
-            <if test="area !=null ">
-
-            </if>
-            <if test="company !=null ">
-
-            </if>
-            <if test="salary !=null ">
-
-            </if>
-
-        </where>
     </select>
 
 <!--    <insert id="saveUser" parameterType="com.senior_web.common.domin.User" >-->
