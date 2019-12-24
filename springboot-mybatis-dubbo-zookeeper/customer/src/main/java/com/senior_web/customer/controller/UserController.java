@@ -35,14 +35,20 @@ public class UserController {
 
         User user= userService.getUserByName(username);
 
-        if(user==null || user.getPassword()!=password){
+        if(user==null || !(user.getPassword().equals(password))){
             status= "2";
+
         }
-        else if(user.getPassword()==password){
+        else if(user.getPassword().equals(password)){
             status = "1";
+
+
         }
         else{
             status="2";
+            System.out.println("默认status2");
+
+
         }
         System.out.println(user);
 
@@ -50,6 +56,8 @@ public class UserController {
         //状态码：1->登录成功；2->用户名和密码错误
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("status",status);
+        System.out.println("status"+":"+status);
+
 
         return jsonObject.toString();
 

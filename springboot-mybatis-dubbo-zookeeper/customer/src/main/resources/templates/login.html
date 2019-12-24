@@ -121,7 +121,8 @@
                     document.getElementById("title").innerHTML = "用户名或密码错误"
                 }
                 else if (state=="1"){
-
+                    url = "index.html?name="+username;
+                    window.location.href = url;
                 }
             },
             error: function() {

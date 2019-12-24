@@ -12,4 +12,17 @@ public class WelcomeController {
         return "login";
     }
 
+    @RequestMapping("charts")
+    public String chartjs() {
+        return "charts";
+    }
+    @RequestMapping("index")
+    public String index() {
+        return "index";
+    }
+
 }
+
+
+
+

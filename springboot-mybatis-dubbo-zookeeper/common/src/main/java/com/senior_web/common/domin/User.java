@@ -53,7 +53,7 @@ public class User implements Serializable{
         return "User{" +
                 "userId=" + userId +
                 ", name=" + name +
-                ", password='" + password+'}';
+                ", password=" + password+'}';
     }
 
     public String getPassword() {
