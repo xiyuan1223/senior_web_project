@@ -8,7 +8,7 @@ public interface JobService {
 
     Job getJobById(int id);
 //    List<Job> findSet(int start_id,int stop_id);
-//    List<Job> findAll();
+        List<Job> findList(int startId,int stopId);
 
     int updateJob(Job user);
     int deleteJob(int id);

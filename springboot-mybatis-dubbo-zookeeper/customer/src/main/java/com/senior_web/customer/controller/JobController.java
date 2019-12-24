@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @RestController
 public class JobController {
@@ -24,6 +25,15 @@ public class JobController {
 
         int id = 6;
         return jobService.getJobById(id);
+    }
+    @GetMapping("findList")
+    public List<Job> findList(){
+        System.out.println("job controller hit ");
+
+        int startId = 6;
+        int stopId = 100;
+        List<Job> jobs = jobService.findList(startId,stopId);
+        return jobs;
     }
 
 

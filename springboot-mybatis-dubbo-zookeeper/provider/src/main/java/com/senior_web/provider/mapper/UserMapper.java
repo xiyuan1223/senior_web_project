@@ -11,16 +11,15 @@ import java.util.List;
 public interface UserMapper {
     User getOne(int id);
 
-    void insertUser(User user);
 
+    User getUserByName(String name);
     List<User> findList(User user);
+    int saveUser(User user);
 
     User getUserById(int id);
 
-    int saveUser(User user);
-
     int updateUser(User user);
-
+    User findUser();
     int deleteUser(int id);
 //    @Results(id = "userMap", value = {
 //            @Result(column = "userId", property = "userId"),

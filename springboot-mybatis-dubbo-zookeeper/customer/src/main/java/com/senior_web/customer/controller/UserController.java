@@ -29,11 +29,27 @@ public class UserController {
     @RequestMapping(value = "/login",method = RequestMethod.POST,produces="application/json;charset=UTF-8")
     @ResponseBody
     public String login(@RequestBody Map<String,Object> map) throws JSONException {
-        System.out.println(map.get("username"));
-        System.out.println(map.get("password"));
+        String status = "";
+        String username = (String) map.get("username");
+        String password= (String) map.get("password");
 
+        User user= userService.getUserByName(username);
+
+        if(user==null || user.getPassword()!=password){
+            status= "2";
+        }
+        else if(user.getPassword()==password){
+            status = "1";
+        }
+        else{
+            status="2";
+        }
+        System.out.println(user);
+
+        //数据库查询操作
+        //状态码：1->登录成功；2->用户名和密码错误
         JSONObject jsonObject = new JSONObject();
-        jsonObject.put("status","1");
+        jsonObject.put("status",status);
 
         return jsonObject.toString();
 
@@ -41,14 +57,31 @@ public class UserController {
     @RequestMapping(value = "/register",method = RequestMethod.POST,produces="application/json;charset=UTF-8")
     @ResponseBody
     public Object register(@RequestBody Map<String,Object> map) throws JSONException {
-        System.out.println(map.get("username"));
-        System.out.println(map.get("password"));
-
+        String status = "2";
+        String username = (String) map.get("username");
+        String password= (String) map.get("password");
+        System.out.println(username);
+        System.out.println(password);
+        // 用户名重复验证
+        User ticket_user = userService.getUserByName(username);
+        System.out.println(ticket_user);
+        if(ticket_user!=null){
+            status= "2";
+        }
+        else {
+            User user = new User();
+            user.setName(username);
+            user.setPassword(password);
+            userService.saveUser(user);
+            //数据库查询操作
+            //状态码：1->注册成功；2->用户名已存在
+            status = "1";
+        }
         JSONObject jsonObject = new JSONObject();
-        jsonObject.put("status","2");
+        jsonObject.put("status",status);
         return jsonObject.toString();
-
     }
+
 
     @RequestMapping(value = "/tj",method = RequestMethod.POST,produces="application/json;charset=UTF-8")
     @ResponseBody

@@ -12,6 +12,10 @@ public class User implements Serializable{
 
     private String sex;
 
+
+
+    private String password;
+
     public Integer getUserId() {
         return userId;
     }
@@ -49,8 +53,14 @@ public class User implements Serializable{
         return "User{" +
                 "userId=" + userId +
                 ", name=" + name +
-                ", age='" + age + '\'' +
-                ", sex='" + sex + '\'' +
-                '}';
+                ", password='" + password+'}';
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }

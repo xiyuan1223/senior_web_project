@@ -9,7 +9,7 @@ public interface JobMapper {
 //    Job getOne(int id);
 
     Job getJobById(int id);
-//    List<Job> findList(Job job);
+    List<Job> findList(int startId,int stopId);
     int updateJob(Job job);
     int deleteJob(int id);
 }
