@@ -97,7 +97,6 @@ public class UserImpl implements UserService {
         return userMapper.getUserByName(name);
     }
 
-
     /**
      * 删除user逻辑：
      * 如果缓存存在，从缓存中删除user信息

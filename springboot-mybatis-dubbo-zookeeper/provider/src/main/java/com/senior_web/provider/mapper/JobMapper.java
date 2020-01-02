@@ -10,6 +10,8 @@ public interface JobMapper {
 
     Job getJobById(int id);
     List<Job> findList(int startId,int stopId);
+    int getJobTotal();
+    List<Job> getJobByPage(int offset,int pageSize);
     int updateJob(Job job);
     int deleteJob(int id);
 }

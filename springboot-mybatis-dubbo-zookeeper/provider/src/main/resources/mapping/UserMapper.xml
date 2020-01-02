@@ -17,6 +17,9 @@
         where t.userId = #{userId,jdbcType=INTEGER}
     </select>
 
+
+
+
     <select id="getUserById" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
         select
         <include refid="Base_Column_List" />

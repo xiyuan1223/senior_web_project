@@ -149,6 +149,23 @@ public class JobImpl implements JobService {
         return ret;
     }
 
+    /**
+     * 获取job总数
+     */
+
+    @Override
+    public int getJobTotal(){
+        return jobMapper.getJobTotal();
+    }
+
+
+    /**
+     * 获取分页信息
+     */
+    @Override
+    public List<Job> getJobByPage(int offset,int pageSize){
+        return jobMapper.getJobByPage(offset, pageSize);
+    }
 
 
     /**

@@ -6,12 +6,12 @@ import com.senior_web.common.domin.Job;
 
 import com.senior_web.common.service.JobService;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 public class JobController {
@@ -26,6 +26,24 @@ public class JobController {
         int id = 6;
         return jobService.getJobById(id);
     }
+
+    @GetMapping("getJobTotal")
+    public int getJobTotal(){
+        return jobService.getJobTotal();
+    }
+
+
+    @RequestMapping(value = "/getJobByPage",method = RequestMethod.POST,produces="application/json;charset=UTF-8")
+    @ResponseBody
+    public Map<String,Object> getPage(@RequestParam("page")int page,@RequestParam("pageSize")int pageSize){
+        Map<String ,Object> map = new HashMap<String,Object>();
+        int offset = pageSize*page;
+        List<Job> jobs = jobService.getJobByPage(offset,pageSize);
+        map.put("jobs",jobs);
+        return map;
+    }
+
+
     @GetMapping("findList")
     public List<Job> findList(){
         System.out.println("job controller hit ");

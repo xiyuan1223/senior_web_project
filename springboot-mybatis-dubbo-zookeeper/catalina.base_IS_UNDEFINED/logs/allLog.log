@@ -1,1116 +1,220 @@
-06:36:00.486 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 43264393ms for sessionid 0x1001db95b45012f
-06:36:00.555 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 43264393ms for sessionid 0x1001db95b45012f, closing socket connection and attempting reconnect
-06:36:02.502 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-06:36:02.503 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-06:36:02.504 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b45012f for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-06:36:04.489 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-06:36:04.492 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-06:36:04.497 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b45012f for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-06:36:06.324 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-06:36:06.325 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-06:36:06.328 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b45012f for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:46:14.492 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:46:14.852 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:46:14.854 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b45012f for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:46:16.775 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:46:16.779 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:46:16.780 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b45012f for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:46:18.707 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:46:18.708 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:46:18.709 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b45012f for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:46:20.013 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:46:20.013 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:46:20.013 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b45012f for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:46:21.340 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:46:21.341 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:46:21.342 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b45012f for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:46:22.844 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:46:22.846 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:46:22.847 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b45012f for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:46:24.872 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:46:26.520 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-10:46:38.957 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Unable to read additional data from server sessionid 0x1001db95b45012f, likely server has closed socket, closing socket connection and attempting reconnect
-10:46:40.304 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:46:43.261 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-10:47:13.262 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 30001ms for sessionid 0x1001db95b45012f
-10:47:13.266 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 30001ms for sessionid 0x1001db95b45012f, closing socket connection and attempting reconnect
-10:47:15.161 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:47:22.962 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-10:47:27.574 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b45012f has expired
-10:47:27.576 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Expired)
-10:47:27.576 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b45012f has expired, closing socket connection
-10:47:27.614 [main-EventThread] INFO  org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=10.20.35.202:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@2cde651b
-10:47:27.648 [main-EventThread] INFO  org.apache.zookeeper.ClientCnxn - EventThread shut down for session: 0x1001db95b45012f
-10:47:27.646 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:47:29.157 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-10:47:30.861 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server 10.20.35.202/10.20.35.202:2181, sessionid = 0x1001db95b450131, negotiated timeout = 30000
-10:47:30.863 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (SyncConnected)
-10:55:05.359 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 20004ms for sessionid 0x1001db95b450131
-10:55:05.360 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 20004ms for sessionid 0x1001db95b450131, closing socket connection and attempting reconnect
-10:55:05.474 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Disconnected)
-10:55:06.911 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:55:06.911 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:55:06.911 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450131 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:55:08.934 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:55:08.934 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:55:08.934 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450131 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:55:10.944 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:55:10.944 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:55:10.946 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450131 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:55:12.628 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:55:12.629 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:55:12.629 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450131 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:55:14.365 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:55:14.365 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:55:14.366 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450131 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:55:15.550 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:55:15.552 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:55:15.553 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450131 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:55:17.005 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:55:17.006 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:55:17.006 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450131 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:55:18.425 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:55:18.427 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:55:18.427 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450131 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:55:20.478 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:55:20.478 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:55:20.478 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450131 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:55:21.674 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:55:21.675 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:55:21.676 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450131 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:55:23.202 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:55:23.203 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:55:23.203 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450131 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:55:24.361 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:55:24.361 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:55:24.363 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450131 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:55:26.292 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:55:26.292 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:55:26.292 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450131 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:55:27.939 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:55:27.940 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:55:27.940 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450131 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:55:29.984 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:55:29.984 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:55:29.987 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450131 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:55:32.043 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:55:32.043 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:55:32.044 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450131 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:55:33.350 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:55:33.357 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:55:33.358 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450131 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:55:35.420 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:55:35.420 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:55:35.424 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450131 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:55:37.406 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:55:37.407 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:55:37.407 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450131 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:55:39.318 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:55:39.318 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-10:55:39.318 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450131 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-10:55:40.902 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:55:46.962 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-10:55:59.882 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b450131 has expired
-10:55:59.882 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Expired)
-10:55:59.884 [main-EventThread] INFO  org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=10.20.35.202:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@2cde651b
-10:55:59.883 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b450131 has expired, closing socket connection
-10:55:59.890 [main-EventThread] INFO  org.apache.zookeeper.ClientCnxn - EventThread shut down for session: 0x1001db95b450131
-10:55:59.890 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-10:56:00.096 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-10:56:00.203 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server 10.20.35.202/10.20.35.202:2181, sessionid = 0x1001db95b450132, negotiated timeout = 30000
-10:56:00.203 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (SyncConnected)
-11:00:16.129 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 156541ms for sessionid 0x1001db95b450132
-11:00:16.137 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 156541ms for sessionid 0x1001db95b450132, closing socket connection and attempting reconnect
-11:00:16.240 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Disconnected)
-11:00:17.993 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-11:00:19.443 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-11:00:19.484 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b450132 has expired
-11:00:19.484 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Expired)
-11:00:19.485 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b450132 has expired, closing socket connection
-11:00:19.486 [main-EventThread] INFO  org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=10.20.35.202:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@2cde651b
-11:00:19.491 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-11:00:19.492 [main-EventThread] INFO  org.apache.zookeeper.ClientCnxn - EventThread shut down for session: 0x1001db95b450132
-11:00:19.615 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-11:00:19.688 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server 10.20.35.202/10.20.35.202:2181, sessionid = 0x1001db95b450135, negotiated timeout = 30000
-11:00:19.688 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (SyncConnected)
-11:04:18.390 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 68484ms for sessionid 0x1001db95b450135
-11:04:18.391 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 68484ms for sessionid 0x1001db95b450135, closing socket connection and attempting reconnect
-11:04:18.496 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Disconnected)
-11:04:19.755 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-11:04:28.127 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-11:04:32.133 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b450135 has expired
-11:04:32.135 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Expired)
-11:04:32.133 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b450135 has expired, closing socket connection
-11:04:32.135 [main-EventThread] INFO  org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=10.20.35.202:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@2cde651b
-11:04:32.142 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-11:04:32.142 [main-EventThread] INFO  org.apache.zookeeper.ClientCnxn - EventThread shut down for session: 0x1001db95b450135
-11:04:39.987 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-11:04:47.704 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server 10.20.35.202/10.20.35.202:2181, sessionid = 0x1001db95b450137, negotiated timeout = 30000
-11:04:47.704 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (SyncConnected)
-11:12:08.027 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 166026ms for sessionid 0x1001db95b450137
-11:12:08.030 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 166026ms for sessionid 0x1001db95b450137, closing socket connection and attempting reconnect
-11:12:08.140 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Disconnected)
-11:12:09.767 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-11:12:28.935 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-11:12:28.946 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b450137 has expired
-11:12:28.948 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Expired)
-11:12:28.949 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b450137 has expired, closing socket connection
-11:12:28.949 [main-EventThread] INFO  org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=10.20.35.202:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@2cde651b
-11:12:28.954 [main-EventThread] INFO  org.apache.zookeeper.ClientCnxn - EventThread shut down for session: 0x1001db95b450137
-11:12:28.955 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-11:12:30.001 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-11:12:30.040 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server 10.20.35.202/10.20.35.202:2181, sessionid = 0x1001db95b450139, negotiated timeout = 30000
-11:12:30.041 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (SyncConnected)
-11:23:41.098 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 76672ms for sessionid 0x1001db95b450139
-11:23:41.106 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 76672ms for sessionid 0x1001db95b450139, closing socket connection and attempting reconnect
-11:23:41.275 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Disconnected)
-11:23:43.068 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-11:23:43.071 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-11:23:43.074 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450139 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-11:23:44.956 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-11:23:44.956 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-11:23:44.956 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450139 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-11:23:46.568 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-11:23:46.570 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-11:23:46.570 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450139 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-11:23:48.223 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-11:23:48.227 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-11:23:48.227 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450139 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-11:23:49.685 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-11:23:49.687 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-11:23:49.688 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450139 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-11:23:50.889 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-11:23:52.654 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-11:24:04.395 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b450139 has expired
-11:24:04.396 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b450139 has expired, closing socket connection
-11:24:04.396 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Expired)
-11:24:04.397 [main-EventThread] INFO  org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=10.20.35.202:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@2cde651b
-11:24:04.406 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-11:24:04.406 [main-EventThread] INFO  org.apache.zookeeper.ClientCnxn - EventThread shut down for session: 0x1001db95b450139
-11:24:04.860 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-11:24:05.346 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server 10.20.35.202/10.20.35.202:2181, sessionid = 0x1001db95b45013b, negotiated timeout = 30000
-11:24:05.347 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (SyncConnected)
-11:27:51.352 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 205436ms for sessionid 0x1001db95b45013b
-11:27:51.354 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 205436ms for sessionid 0x1001db95b45013b, closing socket connection and attempting reconnect
-11:27:51.458 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Disconnected)
-11:27:52.679 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-11:27:57.642 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-11:28:02.254 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b45013b has expired
-11:28:02.258 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Expired)
-11:28:02.255 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b45013b has expired, closing socket connection
-11:28:02.261 [main-EventThread] INFO  org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=10.20.35.202:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@2cde651b
-11:28:02.272 [main-EventThread] INFO  org.apache.zookeeper.ClientCnxn - EventThread shut down for session: 0x1001db95b45013b
-11:28:02.283 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-11:28:06.661 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-11:28:08.483 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server 10.20.35.202/10.20.35.202:2181, sessionid = 0x1001db95b45013c, negotiated timeout = 30000
-11:28:08.484 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (SyncConnected)
-12:04:25.987 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 2013996ms for sessionid 0x1001db95b45013c
-12:04:25.993 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 2013996ms for sessionid 0x1001db95b45013c, closing socket connection and attempting reconnect
-12:04:26.093 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Disconnected)
-12:04:27.271 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-12:04:27.272 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-12:04:27.272 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b45013c for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-12:04:28.383 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-12:04:28.384 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-12:04:28.385 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b45013c for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-12:04:29.911 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-12:04:29.914 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-12:04:29.916 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b45013c for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-12:04:31.305 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-12:04:31.306 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-12:04:31.307 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b45013c for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-12:04:33.291 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-12:04:33.292 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-12:04:33.294 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b45013c for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-12:04:34.808 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-12:04:34.811 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-12:04:34.812 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b45013c for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-12:04:36.626 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-12:04:36.628 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-12:04:36.630 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b45013c for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-12:04:38.198 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-12:04:38.200 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-12:04:38.201 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b45013c for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-12:04:39.469 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-12:04:39.471 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-12:04:39.474 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b45013c for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-12:04:41.421 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-12:04:42.697 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-12:04:42.731 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Expired)
-12:04:42.731 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b45013c has expired
-12:04:42.731 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b45013c has expired, closing socket connection
-12:04:42.731 [main-EventThread] INFO  org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=10.20.35.202:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@2cde651b
-12:04:42.734 [main-EventThread] INFO  org.apache.zookeeper.ClientCnxn - EventThread shut down for session: 0x1001db95b45013c
-12:04:42.734 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-12:04:44.545 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-12:04:50.903 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server 10.20.35.202/10.20.35.202:2181, sessionid = 0x1001db95b45013f, negotiated timeout = 30000
-12:04:50.903 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (SyncConnected)
-12:16:01.506 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 423621ms for sessionid 0x1001db95b45013f
-12:16:01.529 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 423621ms for sessionid 0x1001db95b45013f, closing socket connection and attempting reconnect
-12:16:01.647 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Disconnected)
-12:16:03.173 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-12:16:07.582 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-12:16:14.488 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b45013f has expired
-12:16:14.488 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b45013f has expired, closing socket connection
-12:16:14.488 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Expired)
-12:16:14.492 [main-EventThread] INFO  org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=10.20.35.202:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@2cde651b
-12:16:14.498 [main-EventThread] INFO  org.apache.zookeeper.ClientCnxn - EventThread shut down for session: 0x1001db95b45013f
-12:16:14.496 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-12:16:16.549 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-12:16:18.620 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server 10.20.35.202/10.20.35.202:2181, sessionid = 0x1001db95b450140, negotiated timeout = 30000
-12:16:18.621 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (SyncConnected)
-12:33:13.731 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 1003648ms for sessionid 0x1001db95b450140
-12:33:13.733 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 1003648ms for sessionid 0x1001db95b450140, closing socket connection and attempting reconnect
-12:33:13.841 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Disconnected)
-12:33:13.855 [DubboRegistryFailedRetryTimer-thread-1] INFO  org.I0Itec.zkclient.ZkClient - Waiting for keeper state SyncConnected
-12:33:14.943 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-12:33:20.667 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-12:33:24.554 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b450140 has expired
-12:33:24.554 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Expired)
-12:33:24.554 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b450140 has expired, closing socket connection
-12:33:24.556 [main-EventThread] INFO  org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=10.20.35.202:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@2cde651b
-12:33:24.560 [main-EventThread] INFO  org.apache.zookeeper.ClientCnxn - EventThread shut down for session: 0x1001db95b450140
-12:33:24.561 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-12:33:25.549 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-12:33:26.798 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server 10.20.35.202/10.20.35.202:2181, sessionid = 0x1001db95b450142, negotiated timeout = 30000
-12:33:26.800 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (SyncConnected)
-12:34:34.360 [Thread-14] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b3ca52e: startup date [Tue Dec 24 20:22:50 CST 2019]; root of context hierarchy
-12:34:34.370 [ZkClient-EventThread-37-10.20.35.202:2181] INFO  org.I0Itec.zkclient.ZkEventThread - Terminate ZkClient event thread.
-12:34:34.378 [main-EventThread] INFO  org.apache.zookeeper.ClientCnxn - EventThread shut down for session: 0x1001db95b450142
-12:34:34.381 [DubboShutdownHook] INFO  org.apache.zookeeper.ZooKeeper - Session: 0x1001db95b450142 closed
-12:34:35.486 [Thread-14] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
-12:34:35.493 [Thread-14] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
-12:34:45.683 [main] ERROR o.springframework.boot.SpringApplication - Application run failed
-java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
-	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:549)
-	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadForFileExtension(ConfigFileApplicationListener.java:500)
-	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:468)
-	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$null$6(ConfigFileApplicationListener.java:450)
-	at java.lang.Iterable.forEach(Iterable.java:75)
-	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$load$7(ConfigFileApplicationListener.java:449)
-	at java.lang.Iterable.forEach(Iterable.java:75)
-	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:446)
-	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:336)
-	at org.springframework.boot.context.config.ConfigFileApplicationListener.addPropertySources(ConfigFileApplicationListener.java:215)
-	at org.springframework.boot.context.config.ConfigFileApplicationListener.postProcessEnvironment(ConfigFileApplicationListener.java:198)
-	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEnvironmentPreparedEvent(ConfigFileApplicationListener.java:185)
-	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEvent(ConfigFileApplicationListener.java:171)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
-	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
-	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
-	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:361)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
-	at com.senior_web.provider.ProviderApplication.main(ProviderApplication.java:18)
-Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
- in 'reader', line 35, column 8:
-           password:123456
-           ^
-could not find expected ':'
- in 'reader', line 36, column 8:
-           jedis:
-           ^
-
-	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:466)
-	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:280)
-	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:225)
-	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:557)
-	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157)
-	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147)
-	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:227)
-	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
-	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
-	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
-	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
-	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
-	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
-	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
-	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
-	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
-	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
-	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84)
-	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:123)
-	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:547)
-	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166)
-	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:139)
-	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:75)
-	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
-	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadDocuments(ConfigFileApplicationListener.java:567)
-	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:523)
-	... 23 common frames omitted
-12:35:38.550 [main] INFO  c.s.provider.ProviderApplication - Starting ProviderApplication on LOUISGZLI-MB0 with PID 41474 (/Users/ligengze/course_19_spring/net/senior_web_project/springboot-mybatis-dubbo-zookeeper/provider/target/classes started by ligengze in /Users/ligengze/course_19_spring/net/senior_web_project/springboot-mybatis-dubbo-zookeeper)
-12:35:38.553 [main] INFO  c.s.provider.ProviderApplication - No active profile set, falling back to default profiles: default
-12:35:38.731 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b3ca52e: startup date [Thu Jan 02 12:35:38 CST 2020]; root of context hierarchy
-12:35:39.438 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dubbo.xml]
-12:35:39.750 [main] WARN  o.m.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.li.provider.mapper]' package. Please check your configuration.
-12:35:39.901 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
-12:35:39.902 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.senior_web.provider'
-12:35:39.904 [main] DEBUG o.m.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/ligengze/course_19_spring/net/senior_web_project/springboot-mybatis-dubbo-zookeeper/provider/target/classes/com/senior_web/provider/mapper/JobMapper.class]
-12:35:39.904 [main] DEBUG o.m.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/ligengze/course_19_spring/net/senior_web_project/springboot-mybatis-dubbo-zookeeper/provider/target/classes/com/senior_web/provider/mapper/UserMapper.class]
-12:35:39.905 [main] DEBUG o.m.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'jobMapper' and 'com.senior_web.provider.mapper.JobMapper' mapperInterface
-12:35:39.905 [main] DEBUG o.m.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'jobMapper'.
-12:35:39.905 [main] DEBUG o.m.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.senior_web.provider.mapper.UserMapper' mapperInterface
-12:35:39.905 [main] DEBUG o.m.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
-12:35:39.965 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-12:35:40.383 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6ba230b9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:35:41.007 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
-12:35:41.028 [main] INFO  o.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-12:35:41.039 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-12:35:41.040 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
-12:35:41.043 [localhost-startStop-1] INFO  o.a.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ligengze/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-12:35:41.162 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-12:35:41.163 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2431 ms
-12:35:41.217 [localhost-startStop-1] INFO  o.s.b.w.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
-12:35:41.224 [localhost-startStop-1] INFO  o.s.b.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
-12:35:41.225 [localhost-startStop-1] INFO  o.s.b.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-12:35:41.225 [localhost-startStop-1] INFO  o.s.b.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
-12:35:41.225 [localhost-startStop-1] INFO  o.s.b.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
-12:35:41.633 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Scanned package: 'com.lj.common.domin' for aliases
-12:35:41.894 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/ligengze/course_19_spring/net/senior_web_project/springboot-mybatis-dubbo-zookeeper/provider/target/classes/mapping/JobMapper.xml]'
-12:35:41.905 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/ligengze/course_19_spring/net/senior_web_project/springboot-mybatis-dubbo-zookeeper/provider/target/classes/mapping/UserMapper.xml]'
-12:35:42.274 [main] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-12:35:42.512 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b3ca52e: startup date [Thu Jan 02 12:35:38 CST 2020]; root of context hierarchy
-12:35:42.563 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-12:35:42.564 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-12:35:42.591 [main] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-12:35:42.591 [main] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-12:35:42.660 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
-12:35:42.970 [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration - spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
-12:35:42.999 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
-12:35:43.001 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
-12:35:43.006 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
-12:35:43.277 [ZkClient-EventThread-39-10.20.35.202:2181] INFO  org.I0Itec.zkclient.ZkEventThread - Starting ZkClient event thread.
-12:35:44.500 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
-12:35:44.500 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:host.name=10.21.113.220
-12:35:44.501 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_201
-12:35:44.501 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
-12:35:44.501 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
-12:35:44.501 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/tools.jar:/Users/ligengze/course_19_spring/net/senior_web_project/springboot-mybatis-dubbo-zookeeper/provider/target/classes:/Users/ligengze/course_19_spring/net/senior_web_project/springboot-mybatis-dubbo-zookeeper/common/target/classes:/Users/ligengze/.m2/repository/org/springframework/boot/spring-boot-starter/2.0.4.RELEASE/spring-boot-starter-2.0.4.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.4.RELEASE/spring-boot-autoconfigure-2.0.4.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.0.4.RELEASE/spring-boot-starter-logging-2.0.4.RELEASE.jar:/Users/ligengze/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/ligengze/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/ligengze/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.10.0/log4j-to-slf4j-2.10.0.jar:/Users/ligengze/.m2/repository/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar:/Users/ligengze/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar:/Users/ligengze/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/ligengze/.m2/repository/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/spring-jcl/5.0.8.RELEASE/spring-jcl-5.0.8.RELEASE.jar:/Users/ligengze/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/ligengze/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.0.4.RELEASE/spring-boot-starter-web-2.0.4.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.0.4.RELEASE/spring-boot-starter-json-2.0.4.RELEASE.jar:/Users/ligengze/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.jar:/Users/ligengze/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/ligengze/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar:/Users/ligengze/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.6/jackson-datatype-jdk8-2.9.6.jar:/Users/ligengze/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.6/jackson-datatype-jsr310-2.9.6.jar:/Users/ligengze/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.6/jackson-module-parameter-names-2.9.6.jar:/Users/ligengze/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.0.4.RELEASE/spring-boot-starter-tomcat-2.0.4.RELEASE.jar:/Users/ligengze/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.32/tomcat-embed-core-8.5.32.jar:/Users/ligengze/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/8.5.32/tomcat-embed-el-8.5.32.jar:/Users/ligengze/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.32/tomcat-embed-websocket-8.5.32.jar:/Users/ligengze/.m2/repository/org/hibernate/validator/hibernate-validator/6.0.11.Final/hibernate-validator-6.0.11.Final.jar:/Users/ligengze/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar:/Users/ligengze/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar:/Users/ligengze/.m2/repository/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar:/Users/ligengze/.m2/repository/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/spring-expression/5.0.8.RELEASE/spring-expression-5.0.8.RELEASE.jar:/Users/ligengze/.m2/repository/com/alibaba/dubbo/2.5.5/dubbo-2.5.5.jar:/Users/ligengze/.m2/repository/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar:/Users/ligengze/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar:/Users/ligengze/.m2/repository/org/jboss/netty/netty/3.2.5.Final/netty-3.2.5.Final.jar:/Users/ligengze/.m2/repository/com/101tec/zkclient/0.10/zkclient-0.10.jar:/Users/ligengze/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/ligengze/.m2/repository/org/apache/zookeeper/zookeeper/3.4.8/zookeeper-3.4.8.jar:/Users/ligengze/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar:/Users/ligengze/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/Users/ligengze/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/Users/ligengze/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar:/Users/ligengze/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-starter/1.3.1/mybatis-spring-boot-starter-1.3.1.jar:/Users/ligengze/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.1/mybatis-spring-boot-autoconfigure-1.3.1.jar:/Users/ligengze/.m2/repository/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar:/Users/ligengze/.m2/repository/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1.jar:/Users/ligengze/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.0.4.RELEASE/spring-boot-starter-jdbc-2.0.4.RELEASE.jar:/Users/ligengze/.m2/repository/com/zaxxer/HikariCP/2.7.9/HikariCP-2.7.9.jar:/Users/ligengze/.m2/repository/org/springframework/spring-jdbc/5.0.8.RELEASE/spring-jdbc-5.0.8.RELEASE.jar:/Users/ligengze/.m2/repository/mysql/mysql-connector-java/5.1.35/mysql-connector-java-5.1.35.jar:/Users/ligengze/.m2/repository/com/alibaba/druid/1.0.11/druid-1.0.11.jar:/Users/ligengze/.m2/repository/org/springframework/boot/spring-boot-starter-redis/1.4.7.RELEASE/spring-boot-starter-redis-1.4.7.RELEASE.jar:/Users/ligengze/.m2/repository/redis/clients/jedis/2.9.0/jedis-2.9.0.jar:/Users/ligengze/.m2/repository/org/apache/commons/commons-pool2/2.5.0/commons-pool2-2.5.0.jar:/Users/ligengze/.m2/repository/org/springframework/data/spring-data-redis/2.0.9.RELEASE/spring-data-redis-2.0.9.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/data/spring-data-keyvalue/2.0.9.RELEASE/spring-data-keyvalue-2.0.9.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/data/spring-data-commons/2.0.9.RELEASE/spring-data-commons-2.0.9.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/spring-tx/5.0.8.RELEASE/spring-tx-5.0.8.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/spring-oxm/5.0.8.RELEASE/spring-oxm-5.0.8.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/spring-context-support/5.0.8.RELEASE/spring-context-support-5.0.8.RELEASE.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar
-12:35:44.501 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=/Users/ligengze/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
-12:35:44.501 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/var/folders/g8/lv0yy7yj6ql5pkj9wl13_r_w0000gn/T/
-12:35:44.501 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
-12:35:44.501 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.name=Mac OS X
-12:35:44.501 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.arch=x86_64
-12:35:44.502 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.14.6
-12:35:44.502 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.name=ligengze
-12:35:44.502 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.home=/Users/ligengze
-12:35:44.502 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.dir=/Users/ligengze/course_19_spring/net/senior_web_project/springboot-mybatis-dubbo-zookeeper
-12:35:44.503 [main] INFO  org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=10.20.35.202:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@1b495d4
-12:35:44.514 [main] INFO  org.I0Itec.zkclient.ZkClient - Waiting for keeper state SyncConnected
-12:35:44.520 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-12:35:44.531 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-12:35:44.543 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server 10.20.35.202/10.20.35.202:2181, sessionid = 0x1001db95b450144, negotiated timeout = 30000
-12:35:44.544 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (SyncConnected)
-12:35:45.371 [main] INFO  o.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-12:35:45.372 [main] INFO  o.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
-12:35:45.387 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
-12:35:45.392 [main] INFO  c.s.provider.ProviderApplication - Started ProviderApplication in 7.417 seconds (JVM running for 8.198)
-12:37:36.919 [Thread-18] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b3ca52e: startup date [Thu Jan 02 12:35:38 CST 2020]; root of context hierarchy
-12:37:36.925 [ZkClient-EventThread-39-10.20.35.202:2181] INFO  org.I0Itec.zkclient.ZkEventThread - Terminate ZkClient event thread.
-12:37:36.929 [Thread-18] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
-12:37:36.931 [Thread-18] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
-12:37:37.202 [DubboShutdownHook] INFO  org.apache.zookeeper.ZooKeeper - Session: 0x1001db95b450144 closed
-12:37:37.203 [main-EventThread] INFO  org.apache.zookeeper.ClientCnxn - EventThread shut down for session: 0x1001db95b450144
-12:37:44.882 [main] INFO  c.s.provider.ProviderApplication - Starting ProviderApplication on LOUISGZLI-MB0 with PID 41533 (/Users/ligengze/course_19_spring/net/senior_web_project/springboot-mybatis-dubbo-zookeeper/provider/target/classes started by ligengze in /Users/ligengze/course_19_spring/net/senior_web_project/springboot-mybatis-dubbo-zookeeper)
-12:37:44.897 [main] INFO  c.s.provider.ProviderApplication - No active profile set, falling back to default profiles: default
-12:37:45.145 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@752325ad: startup date [Thu Jan 02 12:37:45 CST 2020]; root of context hierarchy
-12:37:45.939 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dubbo.xml]
-12:37:46.116 [main] WARN  o.m.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.li.provider.mapper]' package. Please check your configuration.
-12:37:46.266 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
-12:37:46.267 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.senior_web.provider'
-12:37:46.270 [main] DEBUG o.m.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/ligengze/course_19_spring/net/senior_web_project/springboot-mybatis-dubbo-zookeeper/provider/target/classes/com/senior_web/provider/mapper/JobMapper.class]
-12:37:46.270 [main] DEBUG o.m.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/ligengze/course_19_spring/net/senior_web_project/springboot-mybatis-dubbo-zookeeper/provider/target/classes/com/senior_web/provider/mapper/UserMapper.class]
-12:37:46.271 [main] DEBUG o.m.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'jobMapper' and 'com.senior_web.provider.mapper.JobMapper' mapperInterface
-12:37:46.271 [main] DEBUG o.m.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'jobMapper'.
-12:37:46.271 [main] DEBUG o.m.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.senior_web.provider.mapper.UserMapper' mapperInterface
-12:37:46.271 [main] DEBUG o.m.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
-12:37:46.330 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-12:37:46.782 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e695b60b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12:37:47.129 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
-12:37:47.141 [main] INFO  o.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
-12:37:47.149 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-12:37:47.149 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
-12:37:47.153 [localhost-startStop-1] INFO  o.a.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ligengze/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-12:37:47.222 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-12:37:47.222 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2080 ms
-12:37:47.267 [localhost-startStop-1] INFO  o.s.b.w.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
-12:37:47.271 [localhost-startStop-1] INFO  o.s.b.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
-12:37:47.271 [localhost-startStop-1] INFO  o.s.b.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-12:37:47.271 [localhost-startStop-1] INFO  o.s.b.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
-12:37:47.272 [localhost-startStop-1] INFO  o.s.b.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
-12:37:47.658 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Scanned package: 'com.lj.common.domin' for aliases
-12:37:47.732 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/ligengze/course_19_spring/net/senior_web_project/springboot-mybatis-dubbo-zookeeper/provider/target/classes/mapping/JobMapper.xml]'
-12:37:47.745 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/ligengze/course_19_spring/net/senior_web_project/springboot-mybatis-dubbo-zookeeper/provider/target/classes/mapping/UserMapper.xml]'
-12:37:48.041 [main] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-12:37:48.285 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@752325ad: startup date [Thu Jan 02 12:37:45 CST 2020]; root of context hierarchy
-12:37:48.337 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-12:37:48.339 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-12:37:48.364 [main] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-12:37:48.365 [main] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-12:37:48.446 [main] DEBUG o.m.s.b.a.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
-12:37:48.680 [main] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration - spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
-12:37:48.708 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
-12:37:48.709 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
-12:37:48.714 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
-12:37:48.902 [ZkClient-EventThread-39-10.20.35.202:2181] INFO  org.I0Itec.zkclient.ZkEventThread - Starting ZkClient event thread.
-12:37:48.908 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
-12:37:48.908 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:host.name=10.21.113.220
-12:37:48.908 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_201
-12:37:48.908 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
-12:37:48.909 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
-12:37:48.909 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/tools.jar:/Users/ligengze/course_19_spring/net/senior_web_project/springboot-mybatis-dubbo-zookeeper/provider/target/classes:/Users/ligengze/course_19_spring/net/senior_web_project/springboot-mybatis-dubbo-zookeeper/common/target/classes:/Users/ligengze/.m2/repository/org/springframework/boot/spring-boot-starter/2.0.4.RELEASE/spring-boot-starter-2.0.4.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.4.RELEASE/spring-boot-autoconfigure-2.0.4.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.0.4.RELEASE/spring-boot-starter-logging-2.0.4.RELEASE.jar:/Users/ligengze/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/ligengze/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/ligengze/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.10.0/log4j-to-slf4j-2.10.0.jar:/Users/ligengze/.m2/repository/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar:/Users/ligengze/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar:/Users/ligengze/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/ligengze/.m2/repository/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/spring-jcl/5.0.8.RELEASE/spring-jcl-5.0.8.RELEASE.jar:/Users/ligengze/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/ligengze/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.0.4.RELEASE/spring-boot-starter-web-2.0.4.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.0.4.RELEASE/spring-boot-starter-json-2.0.4.RELEASE.jar:/Users/ligengze/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.jar:/Users/ligengze/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/ligengze/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar:/Users/ligengze/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.6/jackson-datatype-jdk8-2.9.6.jar:/Users/ligengze/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.6/jackson-datatype-jsr310-2.9.6.jar:/Users/ligengze/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.6/jackson-module-parameter-names-2.9.6.jar:/Users/ligengze/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.0.4.RELEASE/spring-boot-starter-tomcat-2.0.4.RELEASE.jar:/Users/ligengze/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.32/tomcat-embed-core-8.5.32.jar:/Users/ligengze/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/8.5.32/tomcat-embed-el-8.5.32.jar:/Users/ligengze/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.32/tomcat-embed-websocket-8.5.32.jar:/Users/ligengze/.m2/repository/org/hibernate/validator/hibernate-validator/6.0.11.Final/hibernate-validator-6.0.11.Final.jar:/Users/ligengze/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar:/Users/ligengze/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar:/Users/ligengze/.m2/repository/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar:/Users/ligengze/.m2/repository/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/spring-expression/5.0.8.RELEASE/spring-expression-5.0.8.RELEASE.jar:/Users/ligengze/.m2/repository/com/alibaba/dubbo/2.5.5/dubbo-2.5.5.jar:/Users/ligengze/.m2/repository/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar:/Users/ligengze/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar:/Users/ligengze/.m2/repository/org/jboss/netty/netty/3.2.5.Final/netty-3.2.5.Final.jar:/Users/ligengze/.m2/repository/com/101tec/zkclient/0.10/zkclient-0.10.jar:/Users/ligengze/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/ligengze/.m2/repository/org/apache/zookeeper/zookeeper/3.4.8/zookeeper-3.4.8.jar:/Users/ligengze/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar:/Users/ligengze/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/Users/ligengze/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/Users/ligengze/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar:/Users/ligengze/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-starter/1.3.1/mybatis-spring-boot-starter-1.3.1.jar:/Users/ligengze/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.1/mybatis-spring-boot-autoconfigure-1.3.1.jar:/Users/ligengze/.m2/repository/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar:/Users/ligengze/.m2/repository/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1.jar:/Users/ligengze/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.0.4.RELEASE/spring-boot-starter-jdbc-2.0.4.RELEASE.jar:/Users/ligengze/.m2/repository/com/zaxxer/HikariCP/2.7.9/HikariCP-2.7.9.jar:/Users/ligengze/.m2/repository/org/springframework/spring-jdbc/5.0.8.RELEASE/spring-jdbc-5.0.8.RELEASE.jar:/Users/ligengze/.m2/repository/mysql/mysql-connector-java/5.1.35/mysql-connector-java-5.1.35.jar:/Users/ligengze/.m2/repository/com/alibaba/druid/1.0.11/druid-1.0.11.jar:/Users/ligengze/.m2/repository/org/springframework/boot/spring-boot-starter-redis/1.4.7.RELEASE/spring-boot-starter-redis-1.4.7.RELEASE.jar:/Users/ligengze/.m2/repository/redis/clients/jedis/2.9.0/jedis-2.9.0.jar:/Users/ligengze/.m2/repository/org/apache/commons/commons-pool2/2.5.0/commons-pool2-2.5.0.jar:/Users/ligengze/.m2/repository/org/springframework/data/spring-data-redis/2.0.9.RELEASE/spring-data-redis-2.0.9.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/data/spring-data-keyvalue/2.0.9.RELEASE/spring-data-keyvalue-2.0.9.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/data/spring-data-commons/2.0.9.RELEASE/spring-data-commons-2.0.9.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/spring-tx/5.0.8.RELEASE/spring-tx-5.0.8.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/spring-oxm/5.0.8.RELEASE/spring-oxm-5.0.8.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE.jar:/Users/ligengze/.m2/repository/org/springframework/spring-context-support/5.0.8.RELEASE/spring-context-support-5.0.8.RELEASE.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar
-12:37:48.909 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=/Users/ligengze/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
-12:37:48.909 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/var/folders/g8/lv0yy7yj6ql5pkj9wl13_r_w0000gn/T/
-12:37:48.909 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
-12:37:48.909 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.name=Mac OS X
-12:37:48.909 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.arch=x86_64
-12:37:48.909 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.14.6
-12:37:48.909 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.name=ligengze
-12:37:48.909 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.home=/Users/ligengze
-12:37:48.909 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.dir=/Users/ligengze/course_19_spring/net/senior_web_project/springboot-mybatis-dubbo-zookeeper
-12:37:48.910 [main] INFO  org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=10.20.35.202:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@6e6d4780
-12:37:48.915 [main] INFO  org.I0Itec.zkclient.ZkClient - Waiting for keeper state SyncConnected
-12:37:48.918 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-12:37:48.945 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-12:37:48.963 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server 10.20.35.202/10.20.35.202:2181, sessionid = 0x1001db95b450145, negotiated timeout = 30000
-12:37:48.965 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (SyncConnected)
-12:37:49.386 [main] INFO  o.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
-12:37:49.387 [main] INFO  o.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
-12:37:49.405 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
-12:37:49.412 [main] INFO  c.s.provider.ProviderApplication - Started ProviderApplication in 5.16 seconds (JVM running for 6.398)
-12:40:36.686 [DubboServerHandler-10.21.113.220:30102-thread-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
-12:40:36.696 [DubboServerHandler-10.21.113.220:30102-thread-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11dfaab4] was not registered for synchronization because synchronization is not active
-12:40:37.056 [DubboServerHandler-10.21.113.220:30102-thread-4] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e7e1d94] will not be managed by Spring
-12:40:37.096 [DubboServerHandler-10.21.113.220:30102-thread-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11dfaab4]
-12:40:37.124 [DubboServerHandler-10.21.113.220:30102-thread-4] INFO  c.s.provider.service.impl.JobImpl - JobImpl.findJobById() :job插入缓存 >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:41:03.797 [DubboServerHandler-10.21.113.220:30102-thread-5] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:41:08.563 [DubboServerHandler-10.21.113.220:30102-thread-6] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:41:11.935 [DubboServerHandler-10.21.113.220:30102-thread-7] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:41:12.459 [DubboServerHandler-10.21.113.220:30102-thread-8] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:41:12.529 [DubboServerHandler-10.21.113.220:30102-thread-9] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:41:12.548 [DubboServerHandler-10.21.113.220:30102-thread-10] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:42:30.730 [DubboServerHandler-10.21.113.220:30102-thread-11] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:42:30.732 [DubboServerHandler-10.21.113.220:30102-thread-12] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:42:36.572 [DubboServerHandler-10.21.113.220:30102-thread-13] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:42:36.584 [DubboServerHandler-10.21.113.220:30102-thread-14] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:42:36.594 [DubboServerHandler-10.21.113.220:30102-thread-15] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:42:39.022 [DubboServerHandler-10.21.113.220:30102-thread-16] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:42:41.425 [DubboServerHandler-10.21.113.220:30102-thread-17] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:42:41.483 [DubboServerHandler-10.21.113.220:30102-thread-18] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:42:41.540 [DubboServerHandler-10.21.113.220:30102-thread-19] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:42:47.903 [DubboServerHandler-10.21.113.220:30102-thread-20] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:42:48.139 [DubboServerHandler-10.21.113.220:30102-thread-21] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:42:49.288 [DubboServerHandler-10.21.113.220:30102-thread-22] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:42:57.245 [DubboServerHandler-10.21.113.220:30102-thread-23] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:42:57.252 [DubboServerHandler-10.21.113.220:30102-thread-24] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:42:59.900 [DubboServerHandler-10.21.113.220:30102-thread-25] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:45:31.592 [DubboServerHandler-10.21.113.220:30102-thread-26] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:45:51.470 [DubboServerHandler-10.21.113.220:30102-thread-27] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:45:53.166 [DubboServerHandler-10.21.113.220:30102-thread-28] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:45:53.927 [DubboServerHandler-10.21.113.220:30102-thread-29] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:45:54.667 [DubboServerHandler-10.21.113.220:30102-thread-30] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:45:55.146 [DubboServerHandler-10.21.113.220:30102-thread-31] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:45:56.942 [DubboServerHandler-10.21.113.220:30102-thread-32] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:45:59.904 [DubboServerHandler-10.21.113.220:30102-thread-33] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-12:47:05.612 [DubboServerHandler-10.21.113.220:30102-thread-34] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-14:07:39.007 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 4815481ms for sessionid 0x1001db95b450145
-14:07:39.294 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 4815481ms for sessionid 0x1001db95b450145, closing socket connection and attempting reconnect
-14:07:39.406 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Disconnected)
-14:07:40.817 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-14:07:40.818 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-14:07:40.828 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450145 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-14:07:43.212 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-14:07:43.213 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-14:07:43.213 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450145 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-14:07:44.410 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-14:07:44.411 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-14:07:44.411 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450145 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-14:07:46.212 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-14:07:46.213 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-14:07:46.213 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450145 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-14:07:47.342 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-14:07:47.343 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-14:07:47.344 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450145 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-14:07:49.298 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-14:07:49.299 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-14:07:49.299 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450145 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-14:07:51.408 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-14:07:51.409 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-14:07:51.409 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450145 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-14:07:52.936 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-14:07:52.937 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-14:07:52.937 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450145 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-14:07:54.268 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-14:07:54.269 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-14:07:54.269 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450145 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-14:07:56.131 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-14:07:56.132 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-14:07:56.132 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450145 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-14:07:57.703 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-14:07:57.704 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-14:07:57.704 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450145 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-14:07:59.437 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-14:07:59.437 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-14:07:59.438 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450145 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-14:08:01.049 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-14:08:01.050 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
-14:08:01.050 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b450145 for server null, unexpected error, closing socket connection and attempting reconnect
-java.net.SocketException: Network is unreachable
-	at sun.nio.ch.Net.connect0(Native Method)
-	at sun.nio.ch.Net.connect(Net.java:454)
-	at sun.nio.ch.Net.connect(Net.java:446)
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
-	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
-14:08:04.328 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-14:08:06.012 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-14:08:08.507 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Expired)
-14:08:08.507 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b450145 has expired
-14:08:08.508 [main-EventThread] INFO  org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=10.20.35.202:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@6e6d4780
-14:08:08.508 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b450145 has expired, closing socket connection
-14:08:08.509 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-14:08:08.513 [main-EventThread] INFO  org.apache.zookeeper.ClientCnxn - EventThread shut down for session: 0x1001db95b450145
-14:08:11.257 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-14:08:12.122 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server 10.20.35.202/10.20.35.202:2181, sessionid = 0x1001db95b450148, negotiated timeout = 30000
-14:08:12.123 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (SyncConnected)
-14:09:40.713 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 54225ms for sessionid 0x1001db95b450148
-14:09:40.719 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 54225ms for sessionid 0x1001db95b450148, closing socket connection and attempting reconnect
-14:09:40.824 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Disconnected)
-14:09:42.799 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-14:09:46.724 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-14:09:49.117 [DubboServerHandler-10.21.113.220:30102-thread-37] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-14:09:49.508 [DubboServerHandler-10.21.113.220:30102-thread-38] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-14:09:52.684 [DubboServerHandler-10.21.113.220:30102-thread-39] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-14:10:16.729 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 30004ms for sessionid 0x1001db95b450148
-14:10:16.729 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 30004ms for sessionid 0x1001db95b450148, closing socket connection and attempting reconnect
-14:10:18.655 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-14:10:18.658 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-14:10:18.670 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b450148 has expired
-14:10:18.670 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b450148 has expired, closing socket connection
-14:10:18.671 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Expired)
-14:10:18.672 [main-EventThread] INFO  org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=10.20.35.202:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@6e6d4780
-14:10:18.674 [main-EventThread] INFO  org.apache.zookeeper.ClientCnxn - EventThread shut down for session: 0x1001db95b450148
-14:10:18.678 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
-14:10:18.688 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
-14:10:18.694 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server 10.20.35.202/10.20.35.202:2181, sessionid = 0x1001db95b45014a, negotiated timeout = 30000
-14:10:18.695 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (SyncConnected)
-14:10:36.457 [DubboServerHandler-10.21.113.220:30102-thread-46] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-14:10:42.702 [DubboServerHandler-10.21.113.220:30102-thread-47] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-14:10:43.799 [DubboServerHandler-10.21.113.220:30102-thread-48] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-14:10:44.778 [DubboServerHandler-10.21.113.220:30102-thread-49] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-14:10:45.444 [DubboServerHandler-10.21.113.220:30102-thread-50] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-14:10:57.861 [DubboServerHandler-10.21.113.220:30102-thread-51] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-14:11:45.629 [DubboServerHandler-10.21.113.220:30102-thread-52] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-14:11:46.725 [DubboServerHandler-10.21.113.220:30102-thread-53] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-14:11:47.683 [DubboServerHandler-10.21.113.220:30102-thread-54] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-14:11:48.507 [DubboServerHandler-10.21.113.220:30102-thread-55] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-14:11:49.176 [DubboServerHandler-10.21.113.220:30102-thread-56] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-14:11:49.733 [DubboServerHandler-10.21.113.220:30102-thread-57] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-14:11:50.200 [DubboServerHandler-10.21.113.220:30102-thread-58] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-14:11:50.725 [DubboServerHandler-10.21.113.220:30102-thread-59] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-14:11:51.433 [DubboServerHandler-10.21.113.220:30102-thread-60] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-14:11:52.271 [DubboServerHandler-10.21.113.220:30102-thread-61] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-14:11:53.090 [DubboServerHandler-10.21.113.220:30102-thread-62] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-14:13:38.144 [DubboServerHandler-10.21.113.220:30102-thread-63] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
-14:13:39.223 [DubboServerHandler-10.21.113.220:30102-thread-64] INFO  c.s.provider.service.impl.JobImpl - JobImpl.updateJob() : 从缓存中获取了job >> Job{id=6, position=UI设计师, company='上海连尚网络科技有限公司', are='上海', salary='17500.00'}
+00:00:21.664 [DubboServerHandler-172.20.10.3:30102-thread-12] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:00:21.664 [DubboServerHandler-172.20.10.3:30102-thread-11] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:00:21.749 [DubboServerHandler-172.20.10.3:30102-thread-12] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ba86061] was not registered for synchronization because synchronization is not active
+00:00:21.749 [DubboServerHandler-172.20.10.3:30102-thread-11] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a458b61] was not registered for synchronization because synchronization is not active
+00:00:21.829 [DubboServerHandler-172.20.10.3:30102-thread-12] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3dfe1fae] will not be managed by Spring
+00:00:21.829 [DubboServerHandler-172.20.10.3:30102-thread-11] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:00:21.898 [DubboServerHandler-172.20.10.3:30102-thread-12] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ba86061]
+00:00:21.939 [DubboServerHandler-172.20.10.3:30102-thread-11] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a458b61]
+00:02:39.644 [DubboServerHandler-172.20.10.3:30102-thread-15] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:02:39.644 [DubboServerHandler-172.20.10.3:30102-thread-16] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:02:39.647 [DubboServerHandler-172.20.10.3:30102-thread-15] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@170e356c] was not registered for synchronization because synchronization is not active
+00:02:39.648 [DubboServerHandler-172.20.10.3:30102-thread-16] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67df627e] was not registered for synchronization because synchronization is not active
+00:02:39.728 [DubboServerHandler-172.20.10.3:30102-thread-15] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3dfe1fae] will not be managed by Spring
+00:02:39.739 [DubboServerHandler-172.20.10.3:30102-thread-16] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:02:39.824 [DubboServerHandler-172.20.10.3:30102-thread-15] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@170e356c]
+00:02:39.861 [DubboServerHandler-172.20.10.3:30102-thread-16] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67df627e]
+00:02:43.318 [DubboServerHandler-172.20.10.3:30102-thread-17] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:02:43.318 [DubboServerHandler-172.20.10.3:30102-thread-17] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1cd08783] was not registered for synchronization because synchronization is not active
+00:02:43.319 [DubboServerHandler-172.20.10.3:30102-thread-17] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:02:43.319 [DubboServerHandler-172.20.10.3:30102-thread-18] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:02:43.319 [DubboServerHandler-172.20.10.3:30102-thread-18] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e8e1ba7] was not registered for synchronization because synchronization is not active
+00:02:43.319 [DubboServerHandler-172.20.10.3:30102-thread-18] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3dfe1fae] will not be managed by Spring
+00:02:43.558 [DubboServerHandler-172.20.10.3:30102-thread-17] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1cd08783]
+00:02:43.559 [DubboServerHandler-172.20.10.3:30102-thread-18] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e8e1ba7]
+00:02:43.940 [DubboServerHandler-172.20.10.3:30102-thread-19] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:02:43.940 [DubboServerHandler-172.20.10.3:30102-thread-19] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@746d9476] was not registered for synchronization because synchronization is not active
+00:02:43.941 [DubboServerHandler-172.20.10.3:30102-thread-19] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3dfe1fae] will not be managed by Spring
+00:02:43.942 [DubboServerHandler-172.20.10.3:30102-thread-20] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:02:43.943 [DubboServerHandler-172.20.10.3:30102-thread-20] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6cc798f4] was not registered for synchronization because synchronization is not active
+00:02:43.944 [DubboServerHandler-172.20.10.3:30102-thread-20] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:02:44.300 [DubboServerHandler-172.20.10.3:30102-thread-19] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@746d9476]
+00:02:44.302 [DubboServerHandler-172.20.10.3:30102-thread-20] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6cc798f4]
+00:02:44.987 [DubboServerHandler-172.20.10.3:30102-thread-21] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:02:44.987 [DubboServerHandler-172.20.10.3:30102-thread-21] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@fd40b45] was not registered for synchronization because synchronization is not active
+00:02:44.988 [DubboServerHandler-172.20.10.3:30102-thread-21] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:02:44.993 [DubboServerHandler-172.20.10.3:30102-thread-22] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:02:44.993 [DubboServerHandler-172.20.10.3:30102-thread-22] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32a8fe15] was not registered for synchronization because synchronization is not active
+00:02:44.994 [DubboServerHandler-172.20.10.3:30102-thread-22] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3dfe1fae] will not be managed by Spring
+00:02:45.082 [DubboServerHandler-172.20.10.3:30102-thread-22] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32a8fe15]
+00:02:45.096 [DubboServerHandler-172.20.10.3:30102-thread-21] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@fd40b45]
+00:04:01.822 [DubboServerHandler-172.20.10.3:30102-thread-25] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:04:01.824 [DubboServerHandler-172.20.10.3:30102-thread-25] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61fd3cee] was not registered for synchronization because synchronization is not active
+00:04:01.824 [DubboServerHandler-172.20.10.3:30102-thread-26] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:04:01.825 [DubboServerHandler-172.20.10.3:30102-thread-26] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28c4ef38] was not registered for synchronization because synchronization is not active
+00:04:01.944 [DubboServerHandler-172.20.10.3:30102-thread-26] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3dfe1fae] will not be managed by Spring
+00:04:01.944 [DubboServerHandler-172.20.10.3:30102-thread-25] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:04:02.042 [DubboServerHandler-172.20.10.3:30102-thread-26] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28c4ef38]
+00:04:02.085 [DubboServerHandler-172.20.10.3:30102-thread-25] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61fd3cee]
+00:05:10.361 [DubboServerHandler-172.20.10.3:30102-thread-30] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:05:10.361 [DubboServerHandler-172.20.10.3:30102-thread-29] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:05:10.364 [DubboServerHandler-172.20.10.3:30102-thread-30] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@cc0f97] was not registered for synchronization because synchronization is not active
+00:05:10.364 [DubboServerHandler-172.20.10.3:30102-thread-29] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54192b5a] was not registered for synchronization because synchronization is not active
+00:05:10.441 [DubboServerHandler-172.20.10.3:30102-thread-30] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3dfe1fae] will not be managed by Spring
+00:05:10.502 [DubboServerHandler-172.20.10.3:30102-thread-29] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:05:10.557 [DubboServerHandler-172.20.10.3:30102-thread-30] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@cc0f97]
+00:05:10.597 [DubboServerHandler-172.20.10.3:30102-thread-29] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54192b5a]
+00:07:12.923 [DubboServerHandler-172.20.10.3:30102-thread-33] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:07:12.924 [DubboServerHandler-172.20.10.3:30102-thread-34] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:07:12.925 [DubboServerHandler-172.20.10.3:30102-thread-34] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22d8b70d] was not registered for synchronization because synchronization is not active
+00:07:12.925 [DubboServerHandler-172.20.10.3:30102-thread-33] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19c1049c] was not registered for synchronization because synchronization is not active
+00:07:13.012 [DubboServerHandler-172.20.10.3:30102-thread-34] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3dfe1fae] will not be managed by Spring
+00:07:13.028 [DubboServerHandler-172.20.10.3:30102-thread-33] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:07:13.096 [DubboServerHandler-172.20.10.3:30102-thread-33] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19c1049c]
+00:07:13.102 [DubboServerHandler-172.20.10.3:30102-thread-34] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22d8b70d]
+00:08:24.357 [DubboServerHandler-172.20.10.3:30102-thread-35] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:08:24.359 [DubboServerHandler-172.20.10.3:30102-thread-35] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2abce756] was not registered for synchronization because synchronization is not active
+00:08:24.361 [DubboServerHandler-172.20.10.3:30102-thread-36] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:08:24.362 [DubboServerHandler-172.20.10.3:30102-thread-36] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7141138f] was not registered for synchronization because synchronization is not active
+00:08:24.795 [DubboServerHandler-172.20.10.3:30102-thread-35] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3dfe1fae] will not be managed by Spring
+00:08:24.802 [DubboServerHandler-172.20.10.3:30102-thread-36] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:08:24.893 [DubboServerHandler-172.20.10.3:30102-thread-36] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7141138f]
+00:08:24.908 [DubboServerHandler-172.20.10.3:30102-thread-35] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2abce756]
+00:08:53.439 [DubboServerHandler-172.20.10.3:30102-thread-40] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:08:53.439 [DubboServerHandler-172.20.10.3:30102-thread-40] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@384b92d7] was not registered for synchronization because synchronization is not active
+00:08:53.439 [DubboServerHandler-172.20.10.3:30102-thread-40] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3dfe1fae] will not be managed by Spring
+00:08:53.440 [DubboServerHandler-172.20.10.3:30102-thread-39] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:08:53.441 [DubboServerHandler-172.20.10.3:30102-thread-39] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46d6661b] was not registered for synchronization because synchronization is not active
+00:08:53.441 [DubboServerHandler-172.20.10.3:30102-thread-39] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:08:53.575 [DubboServerHandler-172.20.10.3:30102-thread-40] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@384b92d7]
+00:08:53.590 [DubboServerHandler-172.20.10.3:30102-thread-39] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46d6661b]
+00:10:23.660 [DubboServerHandler-172.20.10.3:30102-thread-41] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:10:23.662 [DubboServerHandler-172.20.10.3:30102-thread-41] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f306e5c] was not registered for synchronization because synchronization is not active
+00:10:23.664 [DubboServerHandler-172.20.10.3:30102-thread-42] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:10:23.664 [DubboServerHandler-172.20.10.3:30102-thread-42] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54429d2f] was not registered for synchronization because synchronization is not active
+00:10:23.822 [DubboServerHandler-172.20.10.3:30102-thread-42] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3dfe1fae] will not be managed by Spring
+00:10:23.822 [DubboServerHandler-172.20.10.3:30102-thread-41] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:10:23.900 [DubboServerHandler-172.20.10.3:30102-thread-42] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54429d2f]
+00:10:23.938 [DubboServerHandler-172.20.10.3:30102-thread-41] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f306e5c]
+00:10:40.353 [DubboServerHandler-172.20.10.3:30102-thread-43] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:10:40.353 [DubboServerHandler-172.20.10.3:30102-thread-43] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e5dd78e] was not registered for synchronization because synchronization is not active
+00:10:40.357 [DubboServerHandler-172.20.10.3:30102-thread-43] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:10:40.363 [DubboServerHandler-172.20.10.3:30102-thread-44] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:10:40.363 [DubboServerHandler-172.20.10.3:30102-thread-44] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e93be6d] was not registered for synchronization because synchronization is not active
+00:10:40.364 [DubboServerHandler-172.20.10.3:30102-thread-44] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3dfe1fae] will not be managed by Spring
+00:10:40.532 [DubboServerHandler-172.20.10.3:30102-thread-43] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e5dd78e]
+00:10:40.532 [DubboServerHandler-172.20.10.3:30102-thread-44] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e93be6d]
+00:11:07.321 [DubboServerHandler-172.20.10.3:30102-thread-47] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:11:07.322 [DubboServerHandler-172.20.10.3:30102-thread-47] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32a70197] was not registered for synchronization because synchronization is not active
+00:11:07.323 [DubboServerHandler-172.20.10.3:30102-thread-48] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:11:07.323 [DubboServerHandler-172.20.10.3:30102-thread-48] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23eba422] was not registered for synchronization because synchronization is not active
+00:11:07.323 [DubboServerHandler-172.20.10.3:30102-thread-47] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3dfe1fae] will not be managed by Spring
+00:11:07.324 [DubboServerHandler-172.20.10.3:30102-thread-48] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:11:07.600 [DubboServerHandler-172.20.10.3:30102-thread-47] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32a70197]
+00:11:08.076 [DubboServerHandler-172.20.10.3:30102-thread-48] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23eba422]
+00:29:37.971 [DubboServerHandler-172.20.10.3:30102-thread-55] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:29:38.002 [DubboServerHandler-172.20.10.3:30102-thread-55] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f5c7d93] was not registered for synchronization because synchronization is not active
+00:29:38.139 [DubboServerHandler-172.20.10.3:30102-thread-55] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:29:38.257 [DubboServerHandler-172.20.10.3:30102-thread-55] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f5c7d93]
+00:29:44.572 [DubboServerHandler-172.20.10.3:30102-thread-56] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:29:44.573 [DubboServerHandler-172.20.10.3:30102-thread-56] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b0c6dfd] was not registered for synchronization because synchronization is not active
+00:29:44.588 [DubboServerHandler-172.20.10.3:30102-thread-56] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:29:44.715 [DubboServerHandler-172.20.10.3:30102-thread-56] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b0c6dfd]
+00:31:19.529 [DubboServerHandler-172.20.10.3:30102-thread-59] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:31:19.529 [DubboServerHandler-172.20.10.3:30102-thread-59] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27a542ad] was not registered for synchronization because synchronization is not active
+00:31:19.653 [DubboServerHandler-172.20.10.3:30102-thread-59] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:31:19.746 [DubboServerHandler-172.20.10.3:30102-thread-59] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27a542ad]
+00:32:22.012 [DubboServerHandler-172.20.10.3:30102-thread-60] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:32:22.012 [DubboServerHandler-172.20.10.3:30102-thread-60] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6456f9e8] was not registered for synchronization because synchronization is not active
+00:32:22.127 [DubboServerHandler-172.20.10.3:30102-thread-60] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:32:22.285 [DubboServerHandler-172.20.10.3:30102-thread-60] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6456f9e8]
+00:32:45.311 [DubboServerHandler-172.20.10.3:30102-thread-61] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:32:45.312 [DubboServerHandler-172.20.10.3:30102-thread-61] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13816d4a] was not registered for synchronization because synchronization is not active
+00:32:45.313 [DubboServerHandler-172.20.10.3:30102-thread-61] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:32:45.501 [DubboServerHandler-172.20.10.3:30102-thread-61] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13816d4a]
+00:33:06.085 [DubboServerHandler-172.20.10.3:30102-thread-64] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:33:06.085 [DubboServerHandler-172.20.10.3:30102-thread-64] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@678353d7] was not registered for synchronization because synchronization is not active
+00:33:06.085 [DubboServerHandler-172.20.10.3:30102-thread-64] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:33:06.241 [DubboServerHandler-172.20.10.3:30102-thread-64] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@678353d7]
+00:33:08.947 [DubboServerHandler-172.20.10.3:30102-thread-65] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:33:08.948 [DubboServerHandler-172.20.10.3:30102-thread-65] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@62e757b4] was not registered for synchronization because synchronization is not active
+00:33:08.948 [DubboServerHandler-172.20.10.3:30102-thread-65] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:33:09.022 [DubboServerHandler-172.20.10.3:30102-thread-65] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@62e757b4]
+00:33:10.505 [DubboServerHandler-172.20.10.3:30102-thread-66] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:33:10.505 [DubboServerHandler-172.20.10.3:30102-thread-66] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@236f25d8] was not registered for synchronization because synchronization is not active
+00:33:10.505 [DubboServerHandler-172.20.10.3:30102-thread-66] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:33:10.553 [DubboServerHandler-172.20.10.3:30102-thread-66] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@236f25d8]
+00:33:12.652 [DubboServerHandler-172.20.10.3:30102-thread-67] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:33:12.658 [DubboServerHandler-172.20.10.3:30102-thread-67] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@792e606] was not registered for synchronization because synchronization is not active
+00:33:12.658 [DubboServerHandler-172.20.10.3:30102-thread-67] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:33:12.741 [DubboServerHandler-172.20.10.3:30102-thread-67] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@792e606]
+00:33:13.089 [DubboServerHandler-172.20.10.3:30102-thread-68] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:33:13.089 [DubboServerHandler-172.20.10.3:30102-thread-68] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39b1d155] was not registered for synchronization because synchronization is not active
+00:33:13.089 [DubboServerHandler-172.20.10.3:30102-thread-68] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:33:13.179 [DubboServerHandler-172.20.10.3:30102-thread-68] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39b1d155]
+00:33:15.114 [DubboServerHandler-172.20.10.3:30102-thread-69] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:33:15.114 [DubboServerHandler-172.20.10.3:30102-thread-69] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@55ef78ea] was not registered for synchronization because synchronization is not active
+00:33:15.115 [DubboServerHandler-172.20.10.3:30102-thread-69] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:33:15.183 [DubboServerHandler-172.20.10.3:30102-thread-69] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@55ef78ea]
+00:33:16.293 [DubboServerHandler-172.20.10.3:30102-thread-70] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:33:16.293 [DubboServerHandler-172.20.10.3:30102-thread-70] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59966f58] was not registered for synchronization because synchronization is not active
+00:33:16.294 [DubboServerHandler-172.20.10.3:30102-thread-70] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:33:16.366 [DubboServerHandler-172.20.10.3:30102-thread-70] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59966f58]
+00:43:39.074 [DubboServerHandler-172.20.10.3:30102-thread-73] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:43:39.079 [DubboServerHandler-172.20.10.3:30102-thread-73] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38a6e6ed] was not registered for synchronization because synchronization is not active
+00:43:39.177 [DubboServerHandler-172.20.10.3:30102-thread-73] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:43:39.276 [DubboServerHandler-172.20.10.3:30102-thread-73] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38a6e6ed]
+00:43:57.459 [DubboServerHandler-172.20.10.3:30102-thread-74] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:43:57.460 [DubboServerHandler-172.20.10.3:30102-thread-74] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c174e4f] was not registered for synchronization because synchronization is not active
+00:43:57.461 [DubboServerHandler-172.20.10.3:30102-thread-74] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:43:57.549 [DubboServerHandler-172.20.10.3:30102-thread-74] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c174e4f]
+00:43:58.452 [DubboServerHandler-172.20.10.3:30102-thread-75] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:43:58.452 [DubboServerHandler-172.20.10.3:30102-thread-75] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b998340] was not registered for synchronization because synchronization is not active
+00:43:58.453 [DubboServerHandler-172.20.10.3:30102-thread-75] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:43:58.533 [DubboServerHandler-172.20.10.3:30102-thread-75] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b998340]
+00:44:01.021 [DubboServerHandler-172.20.10.3:30102-thread-76] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:44:01.021 [DubboServerHandler-172.20.10.3:30102-thread-76] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@607731bc] was not registered for synchronization because synchronization is not active
+00:44:01.021 [DubboServerHandler-172.20.10.3:30102-thread-76] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:44:01.104 [DubboServerHandler-172.20.10.3:30102-thread-76] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@607731bc]
+00:44:02.485 [DubboServerHandler-172.20.10.3:30102-thread-77] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:44:02.485 [DubboServerHandler-172.20.10.3:30102-thread-77] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43b5b646] was not registered for synchronization because synchronization is not active
+00:44:02.486 [DubboServerHandler-172.20.10.3:30102-thread-77] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:44:02.567 [DubboServerHandler-172.20.10.3:30102-thread-77] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43b5b646]
+00:49:47.648 [DubboServerHandler-172.20.10.3:30102-thread-80] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:49:47.654 [DubboServerHandler-172.20.10.3:30102-thread-80] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4cc085f2] was not registered for synchronization because synchronization is not active
+00:49:47.739 [DubboServerHandler-172.20.10.3:30102-thread-80] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:49:47.820 [DubboServerHandler-172.20.10.3:30102-thread-80] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4cc085f2]
+00:49:54.586 [DubboServerHandler-172.20.10.3:30102-thread-81] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:49:54.586 [DubboServerHandler-172.20.10.3:30102-thread-81] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@832a30e] was not registered for synchronization because synchronization is not active
+00:49:54.586 [DubboServerHandler-172.20.10.3:30102-thread-81] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:49:54.674 [DubboServerHandler-172.20.10.3:30102-thread-81] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@832a30e]
+00:49:55.965 [DubboServerHandler-172.20.10.3:30102-thread-82] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:49:55.966 [DubboServerHandler-172.20.10.3:30102-thread-82] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52c6c2f4] was not registered for synchronization because synchronization is not active
+00:49:55.966 [DubboServerHandler-172.20.10.3:30102-thread-82] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:49:56.187 [DubboServerHandler-172.20.10.3:30102-thread-82] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52c6c2f4]
+00:49:57.019 [DubboServerHandler-172.20.10.3:30102-thread-83] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+00:49:57.019 [DubboServerHandler-172.20.10.3:30102-thread-83] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@750b43cf] was not registered for synchronization because synchronization is not active
+00:49:57.019 [DubboServerHandler-172.20.10.3:30102-thread-83] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+00:49:57.139 [DubboServerHandler-172.20.10.3:30102-thread-83] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@750b43cf]
+01:08:29.125 [DubboServerHandler-172.20.10.3:30102-thread-86] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+01:08:29.133 [DubboServerHandler-172.20.10.3:30102-thread-86] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60528519] was not registered for synchronization because synchronization is not active
+01:08:29.275 [DubboServerHandler-172.20.10.3:30102-thread-86] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+01:08:29.566 [DubboServerHandler-172.20.10.3:30102-thread-86] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60528519]
+01:08:59.920 [DubboServerHandler-172.20.10.3:30102-thread-87] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+01:08:59.922 [DubboServerHandler-172.20.10.3:30102-thread-87] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ec89864] was not registered for synchronization because synchronization is not active
+01:08:59.922 [DubboServerHandler-172.20.10.3:30102-thread-87] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+01:08:59.967 [DubboServerHandler-172.20.10.3:30102-thread-87] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ec89864]
+01:09:01.694 [DubboServerHandler-172.20.10.3:30102-thread-88] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+01:09:01.694 [DubboServerHandler-172.20.10.3:30102-thread-88] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b4bc4aa] was not registered for synchronization because synchronization is not active
+01:09:01.695 [DubboServerHandler-172.20.10.3:30102-thread-88] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+01:09:01.758 [DubboServerHandler-172.20.10.3:30102-thread-88] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b4bc4aa]
+01:09:54.338 [DubboServerHandler-172.20.10.3:30102-thread-91] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+01:09:54.339 [DubboServerHandler-172.20.10.3:30102-thread-91] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7274fab0] was not registered for synchronization because synchronization is not active
+01:09:54.345 [DubboServerHandler-172.20.10.3:30102-thread-91] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+01:09:54.423 [DubboServerHandler-172.20.10.3:30102-thread-91] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7274fab0]
+01:10:11.898 [DubboServerHandler-172.20.10.3:30102-thread-92] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+01:10:11.899 [DubboServerHandler-172.20.10.3:30102-thread-92] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51825152] was not registered for synchronization because synchronization is not active
+01:10:11.899 [DubboServerHandler-172.20.10.3:30102-thread-92] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+01:10:12.010 [DubboServerHandler-172.20.10.3:30102-thread-92] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51825152]
+01:10:15.449 [DubboServerHandler-172.20.10.3:30102-thread-93] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+01:10:15.449 [DubboServerHandler-172.20.10.3:30102-thread-93] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51cfe6d8] was not registered for synchronization because synchronization is not active
+01:10:15.451 [DubboServerHandler-172.20.10.3:30102-thread-93] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+01:10:15.547 [DubboServerHandler-172.20.10.3:30102-thread-93] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51cfe6d8]
+01:10:17.403 [DubboServerHandler-172.20.10.3:30102-thread-94] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+01:10:17.404 [DubboServerHandler-172.20.10.3:30102-thread-94] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f052834] was not registered for synchronization because synchronization is not active
+01:10:17.404 [DubboServerHandler-172.20.10.3:30102-thread-94] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+01:10:17.471 [DubboServerHandler-172.20.10.3:30102-thread-94] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f052834]
+01:10:32.687 [DubboServerHandler-172.20.10.3:30102-thread-95] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+01:10:32.688 [DubboServerHandler-172.20.10.3:30102-thread-95] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60199f1] was not registered for synchronization because synchronization is not active
+01:10:32.691 [DubboServerHandler-172.20.10.3:30102-thread-95] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@673906b9] will not be managed by Spring
+01:10:32.761 [DubboServerHandler-172.20.10.3:30102-thread-95] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60199f1]

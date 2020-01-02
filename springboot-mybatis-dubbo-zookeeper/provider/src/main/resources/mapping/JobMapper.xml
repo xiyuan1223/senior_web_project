@@ -20,6 +20,20 @@
         where t.id = #{id,jdbcType=INTEGER}
     </select>
 
+    <select id="getJobByPage" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+        select
+        <include refid="Base_Column_List" />
+        from jobs t
+        limit #{offset,jdbcType=INTEGER},#{pageSize,jdbcType=INTEGER}
+    </select>
+
+    <select id="getJobTotal" resultType="int" parameterType="java.lang.Integer" >
+        select
+        count(*)
+        from jobs t
+
+    </select>
+
     <select id="findList" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
         select
         <include refid="Base_Column_List" />
