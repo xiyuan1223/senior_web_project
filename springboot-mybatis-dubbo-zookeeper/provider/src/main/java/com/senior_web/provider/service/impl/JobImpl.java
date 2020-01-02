@@ -36,25 +36,25 @@ public class JobImpl implements JobService {
      */
     @Override
     public Job getJobById(int id) {
-//        //从缓存中获取城市信息
-//        String key = "id";
-//        ValueOperations<String,Job> operations = redisTemplate.opsForValue();
-//
-//        //缓存存在
-//        boolean hasKey = redisTemplate.hasKey(key);
-//        Job j = operations.get(key);
-//        System.out.println("是否有缓存："+hasKey+"  缓存中的值是："+j);
-//        if(hasKey){
-//            Job job = operations.get(key);
-//            LOGGER.info("JobImpl.updateJob() : 从缓存中获取了job >> " + job.toString());
-//            return job;
-//        }
-//        //从数据库中获取job数据
+        //从缓存中获取城市信息
+        String key = "id";
+        ValueOperations<String,Job> operations = redisTemplate.opsForValue();
+
+        //缓存存在
+        boolean hasKey = redisTemplate.hasKey(key);
+        Job j = operations.get(key);
+        System.out.println("是否有缓存："+hasKey+"  缓存中的值是："+j);
+        if(hasKey){
+            Job job = operations.get(key);
+            LOGGER.info("JobImpl.updateJob() : 从缓存中获取了job >> " + job.toString());
+            return job;
+        }
+        //从数据库中获取job数据
         Job job = jobMapper.getJobById(id);
 
         //插入缓存
-//        operations.set(key, job, 4, TimeUnit.HOURS);
-//        LOGGER.info("JobImpl.findJobById() :job插入缓存 >> " + job.toString());
+        operations.set(key, job, 4, TimeUnit.HOURS);
+        LOGGER.info("JobImpl.findJobById() :job插入缓存 >> " + job.toString());
         return job;
     }
     @Override
