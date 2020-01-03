@@ -22,25 +22,25 @@ function initUI(page, pageSize) {
 			console.log(page, pageSize, list.length)
 			for (var i = 0; i < list.length; i++) {
 				htm+= "<ol class=\"rightList\">"
-				htm += "<li>\n" +
-					"<span>ID:" + list[i].id + "</span>\n" +
-					"<span><i class=\"iconfont icon-arrow-up-solid\"></i></span>\n" +
+				htm += "<li>" +
+					"<span>ID:" + list[i].id + "</span>" +
+					"<span><i class=\"iconfont icon-arrow-up-solid\"></i></span>" +
+					"</li>"
+				htm += "<li>" +
+					"<span>职位:" + list[i].position + "</span>" +
+					"<span><i class=\"iconfont icon-arrow-down-solid\"></i></span>" +
+					"</li>"
+				htm += "<li>" +
+					"<span>地区:" + list[i].area + "</span>" +
+					"<span><i class=\"iconfont icon-minus\"></i></span>" +
 					"</li>"
 				htm += "<li>\n" +
-					"<span>职位:" + list[i].position + "</span>\n" +
-					"<span><i class=\"iconfont icon-arrow-down-solid\"></i></span>\n" +
+					"<span>公司:" + list[i].company + "</span>" +
+					"<span><i class=\"iconfont icon-arrow-up-solid\"></i></span>" +
 					"</li>"
-				htm += "<li>\n" +
-					"<span>地区:" + list[i].area + "</span>\n" +
-					"<span><i class=\"iconfont icon-minus\"></i></span>\n" +
-					"</li>"
-				htm += "<li>\n" +
-					"<span>公司:" + list[i].company + "</span>\n" +
-					"<span><i class=\"iconfont icon-arrow-up-solid\"></i></span>\n" +
-					"</li>"
-				htm += "<li>\n" +
-					"<span>薪水:" + list[i].salary + "</span>\n" +
-					"<span><i class=\"iconfont icon-minus\">\n" +
+				htm += "<li>" +
+					"<span>薪水:" + list[i].salary + "</span>" +
+					"<span><i class=\"iconfont icon-minus\">" +
 					"</li>"
 
 				htm+= "</ol><br>"

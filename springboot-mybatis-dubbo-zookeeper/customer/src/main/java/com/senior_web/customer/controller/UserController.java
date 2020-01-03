@@ -5,6 +5,8 @@ import com.senior_web.common.domin.User;
 import com.senior_web.common.service.UserService;
 import org.json.JSONException;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.json.JSONObject;
@@ -15,6 +17,8 @@ import java.util.Map;
 @Controller
 @RequestMapping("/lr")
 public class UserController {
+    private static final Logger LOGGER = LoggerFactory.getLogger(UserController.class);
+
     @Resource
     @Reference(version = "1.0.0")
     private UserService userService;
@@ -37,11 +41,12 @@ public class UserController {
 
         if(user==null || !(user.getPassword().equals(password))){
             status= "2";
-
+            LOGGER.info("用户尝试登录失败: >> " + username);
         }
+
         else if(user.getPassword().equals(password)){
             status = "1";
-
+            LOGGER.info("用户登录成功: >> " + username);
 
         }
         else{

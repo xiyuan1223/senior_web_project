@@ -2,7 +2,7 @@
 var myChart = echarts.init(document.getElementById('histogram'));
 var histogram_option = {
     title: {
-        text: '直方图'
+        text: '各地区职位数量统计'
     },
     tooltip: {},
     legend: {
@@ -10,17 +10,17 @@ var histogram_option = {
     },
     toolbox: {
         feature: {
-            saveAsImage: {}//保存图表
+            //saveAsImage: {}//保存图表
         }
     },
     xAxis: {
-        data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
+        data: ["上海","广州","深圳","北京","武汉","成都","西安"]
     },
     yAxis: {},
     series: [{
-        name: '销量',
+        name: '职位数量',
         type: 'bar',
-        data: [5, 20, 36, 10, 10, 20]
+        data: [46787, 45099, 38738, 34425, 21130,14855,9525]
     }]
 };
 myChart.setOption(histogram_option);
@@ -31,20 +31,23 @@ myChart.setOption(histogram_option);
 var myChart = echarts.init(document.getElementById('pie_chart'));
 var pie_option = {
     title:{
-      text: "饼图"
+        text: "不同薪资水平占比"
     },
     series : [
         {
-            name: '访问来源',
+            name: '薪资水平',
             type: 'pie',
             radius: '55%',
             //roseType: 'angle',
             data:[
-                {value:235, name:'视频广告'},
-                {value:274, name:'联盟广告'},
-                {value:310, name:'邮件营销'},
-                {value:335, name:'直接访问'},
-                {value:400, name:'搜索引擎'}
+                {value:60505, name:'10000-15000'},
+                {value:15476, name:'15000-20000'},
+                {value:9881, name:'20000-30000'},
+                {value:1850, name:'30000-40000'},
+                {value:556, name:'40000-50000'},
+                {value:573, name:'50000+'},
+                {value:227530, name:'5000-10000'},
+                {value:63127, name:'<5000'},
             ]
         }
     ]
@@ -56,13 +59,13 @@ myChart.setOption(pie_option);
 var myChart = echarts.init(document.getElementById('line_chart'));
 line_option = {
     title: {
-        text: '折线图堆叠'
+        text: '平均薪资在不同地区的分布'
     },
     tooltip: {
         trigger: 'axis'
     },
     legend: {
-        data:['邮件营销','联盟广告','视频广告','直接访问','搜索引擎']
+        data:['Java工程师','人事专员','会计','办公室文员','销售代表']
     },
     grid: {
         left: '3%',
@@ -73,41 +76,41 @@ line_option = {
     xAxis: {
         type: 'category',
         boundaryGap: false,
-        data: ['周一','周二','周三','周四','周五','周六','周日']
+        data: ['上海','北京','广州','深圳','杭州',]
     },
     yAxis: {
         type: 'value'
     },
     series: [
         {
-            name:'邮件营销',
+            name:'Java工程师',
             type:'line',
             stack: '总量',
-            data:[120, 132, 101, 134, 90, 230, 210]
+            data:[14882, 14612, 10996, 14137, 14706]
         },
         {
-            name:'联盟广告',
+            name:'人事专员',
             type:'line',
             stack: '总量',
-            data:[220, 182, 191, 234, 290, 330, 310]
+            data:[6550, 6434, 5281, 5850, 5764]
         },
         {
-            name:'视频广告',
+            name:'会计',
             type:'line',
             stack: '总量',
-            data:[150, 232, 201, 154, 190, 330, 410]
+            data:[7327, 7531, 5575, 6459, 6478]
         },
         {
-            name:'直接访问',
+            name:'办公室文员',
             type:'line',
             stack: '总量',
-            data:[320, 332, 301, 334, 390, 330, 320]
+            data:[5067, 5481, 4074, 11833, 4706]
         },
         {
-            name:'搜索引擎',
+            name:'销售代表',
             type:'line',
             stack: '总量',
-            data:[820, 932, 901, 934, 1290, 1330, 1320]
+            data:[8825, 9164, 8123, 9172, 9465]
         }
     ]
 };

@@ -24,6 +24,10 @@ public class WelcomeController {
     public String page() {
         return "page";
     }
+    @RequestMapping("geo")
+    public String geo() {
+        return "geo";
+    }
 
 }
 
