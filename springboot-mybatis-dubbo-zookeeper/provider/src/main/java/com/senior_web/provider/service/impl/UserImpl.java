@@ -45,20 +45,20 @@ public class UserImpl implements UserService {
      */
     @Override
     public User getUserById(int id) {
-//        //从缓存中获取城市信息
-//        String key = "user_"+id;
-//        ValueOperations<String,User> operations = redisTemplate.opsForValue();
-//
-//        //缓存存在
-//        boolean hasKey = redisTemplate.hasKey(key);
-//        User u = operations.get(key);
-//        System.out.println("是否有缓存："+hasKey+"  缓存中的值是："+u);
-//        if(hasKey){
-//            User user = operations.get(key);
-//            LOGGER.info("UserImpl.updateUser() : 从缓存中获取了user >> " + user.toString());
-//            return user;
-//        }
-        //从数据库中获取user数据
+        //从缓存中获取城市信息
+        String key = ""+id;
+        ValueOperations<String,User> operations = redisTemplate.opsForValue();
+
+        //缓存存在
+        boolean hasKey = redisTemplate.hasKey(key);
+        User u = operations.get(key);
+        System.out.println("是否有缓存："+hasKey+"  缓存中的值是："+u);
+        if(hasKey){
+            User user = operations.get(key);
+            LOGGER.info("UserImpl.updateUser() : 从缓存中获取了user >> " + user.toString());
+            return user;
+        }
+//        从数据库中获取user数据
         User user = userMapper.getUserById(id);
 
         //插入缓存
@@ -71,6 +71,9 @@ public class UserImpl implements UserService {
 
 
     public int saveUser(User user){
+
+
+
         return userMapper.saveUser(user);
     }
 
@@ -94,7 +97,31 @@ public class UserImpl implements UserService {
 
 
     public User getUserByName(String name){
-        return userMapper.getUserByName(name);
+        //从缓存中获取城市信息
+        String key = ""+name;
+        ValueOperations<String,User> operations = redisTemplate.opsForValue();
+
+        //缓存存在
+        boolean hasKey = redisTemplate.hasKey(key);
+        User u = operations.get(key);
+        System.out.println("是否有缓存："+hasKey+"  缓存中的值是："+u);
+        if(hasKey&&u!=null){
+            User user = operations.get(key);
+            if(user!=null)
+                LOGGER.info("UserImpl.findUserByName() : 从缓存中获取了user >> " + user.toString());
+            return user;
+        }
+        else {
+//        从数据库中获取user数据
+            User user = userMapper.getUserByName(name);
+//            插入缓存
+        operations.set(name, user, 4, TimeUnit.HOURS);
+        if(user!=null)
+            LOGGER.info("UserImpl.findUserByName() :user插入缓存 >> " + user.toString());
+
+            return user;
+        }
+
     }
 
     /**

@@ -85,31 +85,31 @@ line_option = {
         {
             name:'Java工程师',
             type:'line',
-            stack: '总量',
+            stack: '',
             data:[14882, 14612, 10996, 14137, 14706]
         },
         {
             name:'人事专员',
             type:'line',
-            stack: '总量',
+            stack: '',
             data:[6550, 6434, 5281, 5850, 5764]
         },
         {
             name:'会计',
             type:'line',
-            stack: '总量',
+            stack: '',
             data:[7327, 7531, 5575, 6459, 6478]
         },
         {
             name:'办公室文员',
             type:'line',
-            stack: '总量',
+            stack: '',
             data:[5067, 5481, 4074, 11833, 4706]
         },
         {
             name:'销售代表',
             type:'line',
-            stack: '总量',
+            stack: '',
             data:[8825, 9164, 8123, 9172, 9465]
         }
     ]
