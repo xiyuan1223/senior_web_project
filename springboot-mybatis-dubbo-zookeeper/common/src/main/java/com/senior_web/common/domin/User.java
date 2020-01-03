@@ -8,13 +8,13 @@ public class User implements Serializable{
 
     private  String name;
 
-    private  Integer age;
 
-    private String sex;
 
 
 
     private String password;
+
+
 
     public Integer getUserId() {
         return userId;
@@ -32,21 +32,7 @@ public class User implements Serializable{
         this.name = name;
     }
 
-    public Integer getAge() {
-        return age;
-    }
 
-    public void setAge(Integer age) {
-        this.age = age;
-    }
-
-    public String getSex() {
-        return sex;
-    }
-
-    public void setSex(String sex) {
-        this.sex = sex;
-    }
 
     @Override
     public String toString() {

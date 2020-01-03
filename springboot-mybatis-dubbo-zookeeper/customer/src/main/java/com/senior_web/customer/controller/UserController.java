@@ -46,7 +46,7 @@ public class UserController {
 
         else if(user.getPassword().equals(password)){
             status = "1";
-            LOGGER.info("用户登录成功: >> " + username);
+            LOGGER.info("用户登录成功 >> " + username);
 
         }
         else{
@@ -110,7 +110,7 @@ public class UserController {
         return jsonObject.toString();
 
     }
-    @GetMapping("getUserById")
+    @RequestMapping(value="/getUserById",method = RequestMethod.GET,produces="application/json;charset=UTF-8")
     public User getUserById(){
         System.out.println("进来了！！！！！！！！！！！！！！！！");
         System.out.println(userService.hashCode()+"!!!!!!!!!!!!!!!!");
@@ -124,8 +124,7 @@ public class UserController {
         System.out.println(userService.hashCode()+"!!!!!!!!!!!!!!!!");
         User user = new User();
         user.setName("赵洋");
-        user.setAge(12);
-        user.setSex("女");
+
         int i = userService.saveUser(user);
         System.out.println("是否保存成功？-------------"+i);
     }
@@ -137,8 +136,7 @@ public class UserController {
         User user = new User();
         user.setUserId(1);
         user.setName("赵洋");
-        user.setAge(13);
-        user.setSex("男");
+
         int i = userService.updateUser(user);
         System.out.println("是否保存成功？-------------"+i);
     }
