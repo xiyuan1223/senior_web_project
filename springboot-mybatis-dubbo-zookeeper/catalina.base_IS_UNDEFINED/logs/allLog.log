@@ -311,3 +311,435 @@
 00:23:16.673 [DubboServerHandler-172.20.10.3:30102-thread-15] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3404c993] was not registered for synchronization because synchronization is not active
 00:23:16.674 [DubboServerHandler-172.20.10.3:30102-thread-15] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6fa7ea9f] will not be managed by Spring
 00:23:16.765 [DubboServerHandler-172.20.10.3:30102-thread-15] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3404c993]
+00:24:37.479 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 20003ms for sessionid 0x1001db95b4501ce
+00:24:37.511 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 20003ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:24:37.628 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Disconnected)
+00:24:38.659 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:25:08.663 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31037ms for sessionid 0x1001db95b4501ce
+00:25:08.666 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31037ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:25:10.561 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:25:40.565 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31777ms for sessionid 0x1001db95b4501ce
+00:25:40.567 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31777ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:25:41.905 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:26:11.908 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31238ms for sessionid 0x1001db95b4501ce
+00:26:11.908 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31238ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:26:13.120 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:26:43.125 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31111ms for sessionid 0x1001db95b4501ce
+00:26:43.125 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31111ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:26:44.915 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:27:14.918 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31689ms for sessionid 0x1001db95b4501ce
+00:27:14.921 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31689ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:27:16.993 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:27:46.997 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31974ms for sessionid 0x1001db95b4501ce
+00:27:46.998 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31974ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:27:48.344 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:28:18.349 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31247ms for sessionid 0x1001db95b4501ce
+00:28:18.349 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31247ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:28:19.707 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:28:49.712 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31261ms for sessionid 0x1001db95b4501ce
+00:28:49.712 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31261ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:28:51.493 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:29:21.495 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31676ms for sessionid 0x1001db95b4501ce
+00:29:21.496 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31676ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:29:23.387 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:29:53.391 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31790ms for sessionid 0x1001db95b4501ce
+00:29:53.391 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31790ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:29:55.004 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:30:25.006 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31511ms for sessionid 0x1001db95b4501ce
+00:30:25.006 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31511ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:30:26.456 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:30:56.460 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31349ms for sessionid 0x1001db95b4501ce
+00:30:56.473 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31349ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:30:58.016 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:31:28.025 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31448ms for sessionid 0x1001db95b4501ce
+00:31:28.026 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31448ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:31:29.809 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:31:59.814 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31678ms for sessionid 0x1001db95b4501ce
+00:31:59.816 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31678ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:32:01.855 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:32:31.862 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31941ms for sessionid 0x1001db95b4501ce
+00:32:31.863 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31941ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:32:33.136 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:33:03.145 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31177ms for sessionid 0x1001db95b4501ce
+00:33:03.146 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31177ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:33:04.746 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:33:34.753 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31505ms for sessionid 0x1001db95b4501ce
+00:33:34.754 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31505ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:33:36.509 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:34:06.518 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31661ms for sessionid 0x1001db95b4501ce
+00:34:06.520 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31661ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:34:07.660 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:34:37.669 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31039ms for sessionid 0x1001db95b4501ce
+00:34:37.670 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31039ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:34:39.143 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:35:09.148 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31370ms for sessionid 0x1001db95b4501ce
+00:35:09.150 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31370ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:35:10.883 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:35:40.890 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31632ms for sessionid 0x1001db95b4501ce
+00:35:40.895 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31632ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:35:42.513 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:36:12.525 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31520ms for sessionid 0x1001db95b4501ce
+00:36:12.525 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31520ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:36:14.388 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:36:44.401 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31768ms for sessionid 0x1001db95b4501ce
+00:36:44.401 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31768ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:36:45.621 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:37:15.630 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31122ms for sessionid 0x1001db95b4501ce
+00:37:15.631 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31122ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:37:17.265 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:37:47.273 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31538ms for sessionid 0x1001db95b4501ce
+00:37:47.273 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31538ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:37:48.638 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:38:18.641 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31261ms for sessionid 0x1001db95b4501ce
+00:38:18.642 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31261ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:38:20.235 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:38:50.237 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31491ms for sessionid 0x1001db95b4501ce
+00:38:50.237 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31491ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:38:51.770 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:39:21.775 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31431ms for sessionid 0x1001db95b4501ce
+00:39:21.775 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31431ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:39:22.907 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:39:52.917 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31035ms for sessionid 0x1001db95b4501ce
+00:39:52.917 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31035ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:39:55.035 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:40:25.043 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 32017ms for sessionid 0x1001db95b4501ce
+00:40:25.043 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 32017ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:40:26.567 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:40:56.578 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31423ms for sessionid 0x1001db95b4501ce
+00:40:56.581 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31423ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:40:58.288 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:41:28.293 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31603ms for sessionid 0x1001db95b4501ce
+00:41:28.295 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31603ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:41:30.135 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:42:00.144 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31739ms for sessionid 0x1001db95b4501ce
+00:42:00.145 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31739ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:42:01.660 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:42:31.667 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31412ms for sessionid 0x1001db95b4501ce
+00:42:31.668 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31412ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:42:33.144 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:43:03.150 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31376ms for sessionid 0x1001db95b4501ce
+00:43:03.150 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31376ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:43:04.435 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:43:34.444 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31185ms for sessionid 0x1001db95b4501ce
+00:43:34.444 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31185ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:43:36.244 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+00:44:06.247 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31696ms for sessionid 0x1001db95b4501ce
+00:44:06.251 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Client session timed out, have not heard from server in 31696ms for sessionid 0x1001db95b4501ce, closing socket connection and attempting reconnect
+00:44:07.587 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+02:44:24.884 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Operation timed out
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+02:44:26.296 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+02:44:26.297 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+02:44:26.299 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+02:44:27.752 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+02:44:27.753 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+02:44:27.753 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+02:44:29.301 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+02:44:29.303 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+02:44:29.303 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+09:30:04.198 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+09:30:04.203 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+09:30:04.205 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+09:30:05.397 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+09:30:05.398 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+09:30:05.399 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+09:30:07.368 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+09:30:07.369 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+09:30:07.370 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+09:30:09.091 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+09:30:09.092 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+09:30:09.092 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+09:30:10.813 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+09:30:10.815 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+09:30:10.815 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+09:30:12.666 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+09:30:12.672 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+09:30:12.673 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+09:30:14.273 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+09:30:14.275 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+09:30:14.276 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+09:30:15.901 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+09:30:15.903 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+09:30:15.903 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+09:30:17.543 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+09:30:17.545 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+09:30:17.546 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+09:30:19.164 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+09:30:19.166 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+09:30:19.166 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+09:30:20.351 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+09:30:20.356 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+09:30:20.357 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+09:30:22.250 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+09:30:22.251 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+09:30:22.274 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+12:45:17.005 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+12:45:17.007 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+12:45:17.007 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+12:45:18.288 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+12:45:18.288 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+12:45:18.288 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+12:45:20.073 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+12:45:20.074 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+12:45:20.074 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+12:45:22.125 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+12:45:22.125 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+12:45:22.125 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+13:25:51.005 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+13:25:51.006 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+13:25:51.006 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+13:25:52.414 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+13:25:52.414 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+13:25:52.415 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+13:25:54.095 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+13:25:54.095 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+13:25:54.095 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+13:25:55.984 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+13:25:56.007 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+13:25:56.007 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+13:25:57.723 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+13:25:57.725 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+13:25:57.725 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+13:25:59.335 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+13:25:59.336 [main-SendThread(10.20.35.202:2181)] ERROR org.apache.zookeeper.ClientCnxnSocketNIO - Unable to open socket to 10.20.35.202/10.20.35.202:2181
+13:25:59.336 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x1001db95b4501ce for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1024)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1060)
+13:26:02.603 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+13:26:02.719 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
+13:26:02.787 [main-SendThread(10.20.35.202:2181)] WARN  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b4501ce has expired
+13:26:02.787 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Unable to reconnect to ZooKeeper service, session 0x1001db95b4501ce has expired, closing socket connection
+13:26:02.788 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (Expired)
+13:26:02.792 [main-EventThread] INFO  org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=10.20.35.202:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@4d266391
+13:26:02.797 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 10.20.35.202/10.20.35.202:2181. Will not attempt to authenticate using SASL (unknown error)
+13:26:02.802 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 10.20.35.202/10.20.35.202:2181, initiating session
+13:26:02.813 [main-SendThread(10.20.35.202:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server 10.20.35.202/10.20.35.202:2181, sessionid = 0x1001db95b4501d4, negotiated timeout = 30000
+13:26:02.814 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (SyncConnected)
+13:26:02.813 [main-EventThread] INFO  org.apache.zookeeper.ClientCnxn - EventThread shut down for session: 0x1001db95b4501ce

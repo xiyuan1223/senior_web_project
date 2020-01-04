@@ -74,8 +74,10 @@
     function register() {
         var pass2 = document.getElementById("password22").value;
         var pass1 = document.getElementById("password21").value;
+        console.log(pass2,pass1)
         if (pass1 != pass2) {
-            document.getElementById("password22").setCustomValidity("两次密码不匹配");
+            console.log("if hit")
+            document.getElementById("title").innerHTML="两次密码不匹配";
         }
         else {
             var state;
